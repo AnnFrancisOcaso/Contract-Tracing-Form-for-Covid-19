@@ -57,12 +57,10 @@ namespace Contact_Tracing_Form_updated
             this.regionlbl = new System.Windows.Forms.Label();
             this.addresslbl = new System.Windows.Forms.Label();
             this.Submit = new System.Windows.Forms.Button();
-            this.runnylbl = new System.Windows.Forms.Label();
             this.bodylbl = new System.Windows.Forms.Label();
             this.fatiguelbl = new System.Windows.Forms.Label();
             this.feverlbl = new System.Windows.Forms.Label();
             this.doyouexperiencelbl = new System.Windows.Forms.Label();
-            this.sorelbl = new System.Windows.Forms.Label();
             this.breathlbl = new System.Windows.Forms.Label();
             this.diarrhealbl = new System.Windows.Forms.Label();
             this.headachelbl = new System.Windows.Forms.Label();
@@ -77,16 +75,26 @@ namespace Contact_Tracing_Form_updated
             this.noseYesrb = new System.Windows.Forms.RadioButton();
             this.coughYesrb = new System.Windows.Forms.RadioButton();
             this.feveryesrb = new System.Windows.Forms.RadioButton();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.soreYesrb = new System.Windows.Forms.RadioButton();
+            this.soreNorb = new System.Windows.Forms.RadioButton();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.contactbx = new System.Windows.Forms.TextBox();
+            this.contactlbl = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // formlbl
             // 
             this.formlbl.AutoSize = true;
             this.formlbl.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.formlbl.Location = new System.Drawing.Point(41, 21);
+            this.formlbl.Location = new System.Drawing.Point(134, 9);
             this.formlbl.Name = "formlbl";
             this.formlbl.Size = new System.Drawing.Size(439, 38);
             this.formlbl.TabIndex = 1;
@@ -94,9 +102,9 @@ namespace Contact_Tracing_Form_updated
             // 
             // temperaturebx
             // 
-            this.temperaturebx.Location = new System.Drawing.Point(318, 100);
+            this.temperaturebx.Location = new System.Drawing.Point(475, 100);
             this.temperaturebx.Name = "temperaturebx";
-            this.temperaturebx.Size = new System.Drawing.Size(188, 20);
+            this.temperaturebx.Size = new System.Drawing.Size(225, 20);
             this.temperaturebx.TabIndex = 12;
             this.temperaturebx.TextChanged += new System.EventHandler(this.temperaturebx_TextChanged);
             // 
@@ -104,7 +112,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.temperaturelbl.AutoSize = true;
             this.temperaturelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.temperaturelbl.Location = new System.Drawing.Point(314, 77);
+            this.temperaturelbl.Location = new System.Drawing.Point(471, 77);
             this.temperaturelbl.Name = "temperaturelbl";
             this.temperaturelbl.Size = new System.Drawing.Size(83, 20);
             this.temperaturelbl.TabIndex = 11;
@@ -113,16 +121,16 @@ namespace Contact_Tracing_Form_updated
             // 
             // timebx
             // 
-            this.timebx.Location = new System.Drawing.Point(190, 100);
+            this.timebx.Location = new System.Drawing.Point(201, 100);
             this.timebx.Name = "timebx";
-            this.timebx.Size = new System.Drawing.Size(122, 20);
+            this.timebx.Size = new System.Drawing.Size(146, 20);
             this.timebx.TabIndex = 10;
             // 
             // timelbl
             // 
             this.timelbl.AutoSize = true;
             this.timelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.timelbl.Location = new System.Drawing.Point(187, 77);
+            this.timelbl.Location = new System.Drawing.Point(198, 77);
             this.timelbl.Name = "timelbl";
             this.timelbl.Size = new System.Drawing.Size(42, 20);
             this.timelbl.TabIndex = 9;
@@ -147,16 +155,16 @@ namespace Contact_Tracing_Form_updated
             // 
             // emailbx
             // 
-            this.emailbx.Location = new System.Drawing.Point(35, 266);
+            this.emailbx.Location = new System.Drawing.Point(475, 220);
             this.emailbx.Name = "emailbx";
-            this.emailbx.Size = new System.Drawing.Size(315, 20);
+            this.emailbx.Size = new System.Drawing.Size(225, 20);
             this.emailbx.TabIndex = 33;
             // 
             // emaillbl
             // 
             this.emaillbl.AutoSize = true;
             this.emaillbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.emaillbl.Location = new System.Drawing.Point(31, 243);
+            this.emaillbl.Location = new System.Drawing.Point(471, 197);
             this.emaillbl.Name = "emaillbl";
             this.emaillbl.Size = new System.Drawing.Size(91, 20);
             this.emaillbl.TabIndex = 32;
@@ -176,7 +184,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.agebx.Location = new System.Drawing.Point(199, 220);
             this.agebx.Name = "agebx";
-            this.agebx.Size = new System.Drawing.Size(151, 20);
+            this.agebx.Size = new System.Drawing.Size(65, 20);
             this.agebx.TabIndex = 30;
             // 
             // birthbx
@@ -200,7 +208,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.lastlbl.AutoSize = true;
             this.lastlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.lastlbl.Location = new System.Drawing.Point(361, 151);
+            this.lastlbl.Location = new System.Drawing.Point(471, 151);
             this.lastlbl.Name = "lastlbl";
             this.lastlbl.Size = new System.Drawing.Size(70, 20);
             this.lastlbl.TabIndex = 27;
@@ -208,23 +216,24 @@ namespace Contact_Tracing_Form_updated
             // 
             // lastbx
             // 
-            this.lastbx.Location = new System.Drawing.Point(365, 174);
+            this.lastbx.Location = new System.Drawing.Point(475, 174);
             this.lastbx.Name = "lastbx";
-            this.lastbx.Size = new System.Drawing.Size(141, 20);
+            this.lastbx.Size = new System.Drawing.Size(225, 20);
             this.lastbx.TabIndex = 26;
             // 
             // middlebx
             // 
-            this.middlebx.Location = new System.Drawing.Point(199, 174);
+            this.middlebx.Location = new System.Drawing.Point(284, 174);
             this.middlebx.Name = "middlebx";
-            this.middlebx.Size = new System.Drawing.Size(151, 20);
+            this.middlebx.Size = new System.Drawing.Size(170, 20);
             this.middlebx.TabIndex = 25;
+            this.middlebx.TextChanged += new System.EventHandler(this.middlebx_TextChanged);
             // 
             // middlelbl
             // 
             this.middlelbl.AutoSize = true;
             this.middlelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.middlelbl.Location = new System.Drawing.Point(197, 151);
+            this.middlelbl.Location = new System.Drawing.Point(280, 151);
             this.middlelbl.Name = "middlelbl";
             this.middlelbl.Size = new System.Drawing.Size(86, 20);
             this.middlelbl.TabIndex = 24;
@@ -244,7 +253,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.namebx.Location = new System.Drawing.Point(35, 174);
             this.namebx.Name = "namebx";
-            this.namebx.Size = new System.Drawing.Size(151, 20);
+            this.namebx.Size = new System.Drawing.Size(229, 20);
             this.namebx.TabIndex = 22;
             // 
             // profilelbl
@@ -261,7 +270,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.barangaylbl.AutoSize = true;
             this.barangaylbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.barangaylbl.Location = new System.Drawing.Point(290, 362);
+            this.barangaylbl.Location = new System.Drawing.Point(36, 314);
             this.barangaylbl.Name = "barangaylbl";
             this.barangaylbl.Size = new System.Drawing.Size(64, 20);
             this.barangaylbl.TabIndex = 41;
@@ -269,16 +278,16 @@ namespace Contact_Tracing_Form_updated
             // 
             // municipalitybx
             // 
-            this.municipalitybx.Location = new System.Drawing.Point(37, 384);
+            this.municipalitybx.Location = new System.Drawing.Point(493, 292);
             this.municipalitybx.Name = "municipalitybx";
-            this.municipalitybx.Size = new System.Drawing.Size(227, 20);
+            this.municipalitybx.Size = new System.Drawing.Size(207, 20);
             this.municipalitybx.TabIndex = 40;
             // 
             // Municipalitylbl
             // 
             this.Municipalitylbl.AutoSize = true;
             this.Municipalitylbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.Municipalitylbl.Location = new System.Drawing.Point(34, 361);
+            this.Municipalitylbl.Location = new System.Drawing.Point(490, 269);
             this.Municipalitylbl.Name = "Municipalitylbl";
             this.Municipalitylbl.Size = new System.Drawing.Size(82, 20);
             this.Municipalitylbl.TabIndex = 39;
@@ -288,7 +297,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.provincelbl.AutoSize = true;
             this.provincelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.provincelbl.Location = new System.Drawing.Point(290, 316);
+            this.provincelbl.Location = new System.Drawing.Point(271, 269);
             this.provincelbl.Name = "provincelbl";
             this.provincelbl.Size = new System.Drawing.Size(61, 20);
             this.provincelbl.TabIndex = 37;
@@ -296,7 +305,7 @@ namespace Contact_Tracing_Form_updated
             // 
             // regionbx
             // 
-            this.regionbx.Location = new System.Drawing.Point(37, 339);
+            this.regionbx.Location = new System.Drawing.Point(37, 292);
             this.regionbx.Name = "regionbx";
             this.regionbx.Size = new System.Drawing.Size(227, 20);
             this.regionbx.TabIndex = 36;
@@ -305,7 +314,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.regionlbl.AutoSize = true;
             this.regionlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.regionlbl.Location = new System.Drawing.Point(33, 316);
+            this.regionlbl.Location = new System.Drawing.Point(33, 269);
             this.regionlbl.Name = "regionlbl";
             this.regionlbl.Size = new System.Drawing.Size(52, 20);
             this.regionlbl.TabIndex = 35;
@@ -315,7 +324,7 @@ namespace Contact_Tracing_Form_updated
             // 
             this.addresslbl.AutoSize = true;
             this.addresslbl.Font = new System.Drawing.Font("Sitka Display", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addresslbl.Location = new System.Drawing.Point(33, 295);
+            this.addresslbl.Location = new System.Drawing.Point(33, 248);
             this.addresslbl.Name = "addresslbl";
             this.addresslbl.Size = new System.Drawing.Size(56, 21);
             this.addresslbl.TabIndex = 34;
@@ -332,23 +341,12 @@ namespace Contact_Tracing_Form_updated
             this.Submit.UseVisualStyleBackColor = true;
             this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
-            // runnylbl
-            // 
-            this.runnylbl.AutoSize = true;
-            this.runnylbl.BackColor = System.Drawing.Color.Transparent;
-            this.runnylbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.runnylbl.Location = new System.Drawing.Point(300, 657);
-            this.runnylbl.Name = "runnylbl";
-            this.runnylbl.Size = new System.Drawing.Size(145, 20);
-            this.runnylbl.TabIndex = 49;
-            this.runnylbl.Text = "Do you have runny nose?";
-            // 
             // bodylbl
             // 
             this.bodylbl.AutoSize = true;
             this.bodylbl.BackColor = System.Drawing.Color.Transparent;
             this.bodylbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.bodylbl.Location = new System.Drawing.Point(300, 482);
+            this.bodylbl.Location = new System.Drawing.Point(348, 613);
             this.bodylbl.Name = "bodylbl";
             this.bodylbl.Size = new System.Drawing.Size(174, 20);
             this.bodylbl.TabIndex = 48;
@@ -386,17 +384,6 @@ namespace Contact_Tracing_Form_updated
             this.doyouexperiencelbl.TabIndex = 44;
             this.doyouexperiencelbl.Text = "Do you experience the following?";
             // 
-            // sorelbl
-            // 
-            this.sorelbl.AutoSize = true;
-            this.sorelbl.BackColor = System.Drawing.Color.Transparent;
-            this.sorelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.sorelbl.Location = new System.Drawing.Point(315, 694);
-            this.sorelbl.Name = "sorelbl";
-            this.sorelbl.Size = new System.Drawing.Size(144, 20);
-            this.sorelbl.TabIndex = 50;
-            this.sorelbl.Text = "Do you have sore throat?";
-            // 
             // breathlbl
             // 
             this.breathlbl.AutoSize = true;
@@ -432,16 +419,16 @@ namespace Contact_Tracing_Form_updated
             // 
             // provincebx
             // 
-            this.provincebx.Location = new System.Drawing.Point(294, 339);
+            this.provincebx.Location = new System.Drawing.Point(275, 292);
             this.provincebx.Name = "provincebx";
             this.provincebx.Size = new System.Drawing.Size(212, 20);
             this.provincebx.TabIndex = 58;
             // 
             // barangaybx
             // 
-            this.barangaybx.Location = new System.Drawing.Point(294, 384);
+            this.barangaybx.Location = new System.Drawing.Point(40, 336);
             this.barangaybx.Name = "barangaybx";
-            this.barangaybx.Size = new System.Drawing.Size(212, 20);
+            this.barangaybx.Size = new System.Drawing.Size(224, 20);
             this.barangaybx.TabIndex = 59;
             // 
             // groupBox1
@@ -541,11 +528,96 @@ namespace Contact_Tracing_Form_updated
             this.feveryesrb.Text = "Yes";
             this.feveryesrb.UseVisualStyleBackColor = true;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.soreYesrb);
+            this.groupBox4.Controls.Add(this.soreNorb);
+            this.groupBox4.Font = new System.Drawing.Font("Sitka Display", 10F);
+            this.groupBox4.Location = new System.Drawing.Point(40, 629);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(164, 55);
+            this.groupBox4.TabIndex = 62;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Do you have sore throat?";
+            // 
+            // soreYesrb
+            // 
+            this.soreYesrb.AutoSize = true;
+            this.soreYesrb.Location = new System.Drawing.Point(29, 23);
+            this.soreYesrb.Name = "soreYesrb";
+            this.soreYesrb.Size = new System.Drawing.Size(45, 24);
+            this.soreYesrb.TabIndex = 60;
+            this.soreYesrb.Text = "Yes";
+            this.soreYesrb.UseVisualStyleBackColor = true;
+            // 
+            // soreNorb
+            // 
+            this.soreNorb.AutoSize = true;
+            this.soreNorb.Location = new System.Drawing.Point(89, 23);
+            this.soreNorb.Name = "soreNorb";
+            this.soreNorb.Size = new System.Drawing.Size(43, 24);
+            this.soreNorb.TabIndex = 59;
+            this.soreNorb.Text = "No";
+            this.soreNorb.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.radioButton1);
+            this.groupBox5.Controls.Add(this.radioButton2);
+            this.groupBox5.Font = new System.Drawing.Font("Sitka Display", 10F);
+            this.groupBox5.Location = new System.Drawing.Point(215, 447);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(164, 55);
+            this.groupBox5.TabIndex = 63;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Do you have sore throat?";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(29, 23);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(45, 24);
+            this.radioButton1.TabIndex = 60;
+            this.radioButton1.Text = "Yes";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(89, 23);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(43, 24);
+            this.radioButton2.TabIndex = 59;
+            this.radioButton2.Text = "No";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // contactbx
+            // 
+            this.contactbx.Location = new System.Drawing.Point(284, 220);
+            this.contactbx.Name = "contactbx";
+            this.contactbx.Size = new System.Drawing.Size(170, 20);
+            this.contactbx.TabIndex = 65;
+            // 
+            // contactlbl
+            // 
+            this.contactlbl.AutoSize = true;
+            this.contactlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
+            this.contactlbl.Location = new System.Drawing.Point(281, 197);
+            this.contactlbl.Name = "contactlbl";
+            this.contactlbl.Size = new System.Drawing.Size(73, 20);
+            this.contactlbl.TabIndex = 64;
+            this.contactlbl.Text = "Contact No.";
+            // 
             // Contacttracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(546, 786);
+            this.ClientSize = new System.Drawing.Size(740, 786);
+            this.Controls.Add(this.contactbx);
+            this.Controls.Add(this.contactlbl);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -554,8 +626,6 @@ namespace Contact_Tracing_Form_updated
             this.Controls.Add(this.headachelbl);
             this.Controls.Add(this.diarrhealbl);
             this.Controls.Add(this.breathlbl);
-            this.Controls.Add(this.sorelbl);
-            this.Controls.Add(this.runnylbl);
             this.Controls.Add(this.bodylbl);
             this.Controls.Add(this.fatiguelbl);
             this.Controls.Add(this.feverlbl);
@@ -599,6 +669,10 @@ namespace Contact_Tracing_Form_updated
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -634,12 +708,10 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.Label regionlbl;
         private System.Windows.Forms.Label addresslbl;
         private System.Windows.Forms.Button Submit;
-        private System.Windows.Forms.Label runnylbl;
         private System.Windows.Forms.Label bodylbl;
         private System.Windows.Forms.Label fatiguelbl;
         private System.Windows.Forms.Label feverlbl;
         private System.Windows.Forms.Label doyouexperiencelbl;
-        private System.Windows.Forms.Label sorelbl;
         private System.Windows.Forms.Label breathlbl;
         private System.Windows.Forms.Label diarrhealbl;
         private System.Windows.Forms.Label headachelbl;
@@ -654,6 +726,14 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.RadioButton noseNorb;
         private System.Windows.Forms.RadioButton coughYesrb;
         private System.Windows.Forms.RadioButton feveryesrb;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.RadioButton soreYesrb;
+        private System.Windows.Forms.RadioButton soreNorb;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.TextBox contactbx;
+        private System.Windows.Forms.Label contactlbl;
     }
 }
 

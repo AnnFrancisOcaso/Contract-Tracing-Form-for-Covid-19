@@ -44,6 +44,7 @@ namespace Contact_Tracing_Form_updated
             file.WriteLine("Last Name: " + lastbx.Text);
             file.WriteLine("Date of Birth: " + birthbx.Text);
             file.WriteLine("Age: " + agebx.Text);
+            file.WriteLine("Contact No.: " + contactbx.Text);
             file.WriteLine("Email Address: " + emailbx.Text);
             file.WriteLine("Region: " + regionbx.Text);
             file.WriteLine("Province: " + provincebx.Text);
@@ -89,6 +90,22 @@ namespace Contact_Tracing_Form_updated
                 noseAnswer = noseNorb.Text;
                 file.WriteLine("Do you have runny nose? " + "No");
             }
+
+            String soreAnswer = "";
+            if (noseYesrb.Checked)
+            {
+                soreAnswer = soreYesrb.Text;
+                file.WriteLine("Do you have sore throat? " + "Yes");
+
+            }
+
+            if (soreNorb.Checked)
+            {
+                soreAnswer = soreNorb.Text;
+                file.WriteLine("Do you have sore throat ? " + "No");
+            }
+
+
             file.Close();
         }
 
@@ -98,6 +115,11 @@ namespace Contact_Tracing_Form_updated
         }
 
         private void feverNorb_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void middlebx_TextChanged(object sender, EventArgs e)
         {
 
         }
