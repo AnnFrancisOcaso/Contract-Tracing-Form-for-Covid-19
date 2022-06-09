@@ -117,4 +117,2252 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="formlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="formlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 21.75pt</value>
+  </data>
+  <data name="formlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 11</value>
+  </data>
+  <data name="formlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 38</value>
+  </data>
+  <data name="formlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="formlbl.Text" xml:space="preserve">
+    <value>COVID 19 Contact Tracing Form</value>
+  </data>
+  <data name="&gt;&gt;formlbl.Name" xml:space="preserve">
+    <value>formlbl</value>
+  </data>
+  <data name="&gt;&gt;formlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;formlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;formlbl.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="temperaturebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 85</value>
+  </data>
+  <data name="temperaturebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="temperaturebx.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;temperaturebx.Name" xml:space="preserve">
+    <value>temperaturebx</value>
+  </data>
+  <data name="&gt;&gt;temperaturebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;temperaturebx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;temperaturebx.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="temperaturelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="temperaturelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="temperaturelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 62</value>
+  </data>
+  <data name="temperaturelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="temperaturelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="temperaturelbl.Text" xml:space="preserve">
+    <value>Temperature:</value>
+  </data>
+  <data name="&gt;&gt;temperaturelbl.Name" xml:space="preserve">
+    <value>temperaturelbl</value>
+  </data>
+  <data name="&gt;&gt;temperaturelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;temperaturelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;temperaturelbl.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="timebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 85</value>
+  </data>
+  <data name="timebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 20</value>
+  </data>
+  <data name="timebx.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;timebx.Name" xml:space="preserve">
+    <value>timebx</value>
+  </data>
+  <data name="&gt;&gt;timebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timebx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;timebx.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="timelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="timelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="timelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 62</value>
+  </data>
+  <data name="timelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="timelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="timelbl.Text" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="&gt;&gt;timelbl.Name" xml:space="preserve">
+    <value>timelbl</value>
+  </data>
+  <data name="&gt;&gt;timelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;timelbl.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="datebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 85</value>
+  </data>
+  <data name="datebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="datebx.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;datebx.Name" xml:space="preserve">
+    <value>datebx</value>
+  </data>
+  <data name="&gt;&gt;datebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datebx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;datebx.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="datelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="datelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="datelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 62</value>
+  </data>
+  <data name="datelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="datelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="datelbl.Text" xml:space="preserve">
+    <value>Date: </value>
+  </data>
+  <data name="&gt;&gt;datelbl.Name" xml:space="preserve">
+    <value>datelbl</value>
+  </data>
+  <data name="&gt;&gt;datelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;datelbl.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="emailbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 200</value>
+  </data>
+  <data name="emailbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="emailbx.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;emailbx.Name" xml:space="preserve">
+    <value>emailbx</value>
+  </data>
+  <data name="&gt;&gt;emailbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;emailbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;emailbx.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="emaillbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="emaillbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="emaillbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 177</value>
+  </data>
+  <data name="emaillbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="emaillbl.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="emaillbl.Text" xml:space="preserve">
+    <value>Email Address:</value>
+  </data>
+  <data name="&gt;&gt;emaillbl.Name" xml:space="preserve">
+    <value>emaillbl</value>
+  </data>
+  <data name="&gt;&gt;emaillbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;emaillbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;emaillbl.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="agelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="agelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="agelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 177</value>
+  </data>
+  <data name="agelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="agelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="agelbl.Text" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="&gt;&gt;agelbl.Name" xml:space="preserve">
+    <value>agelbl</value>
+  </data>
+  <data name="&gt;&gt;agelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;agelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;agelbl.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="agebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 200</value>
+  </data>
+  <data name="agebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="agebx.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;agebx.Name" xml:space="preserve">
+    <value>agebx</value>
+  </data>
+  <data name="&gt;&gt;agebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;agebx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;agebx.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="birthbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 200</value>
+  </data>
+  <data name="birthbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="birthbx.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;birthbx.Name" xml:space="preserve">
+    <value>birthbx</value>
+  </data>
+  <data name="&gt;&gt;birthbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;birthbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;birthbx.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="birthlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="birthlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="birthlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 178</value>
+  </data>
+  <data name="birthlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="birthlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="birthlbl.Text" xml:space="preserve">
+    <value>Date of Birth:</value>
+  </data>
+  <data name="&gt;&gt;birthlbl.Name" xml:space="preserve">
+    <value>birthlbl</value>
+  </data>
+  <data name="&gt;&gt;birthlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;birthlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;birthlbl.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lastlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lastlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="lastlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 132</value>
+  </data>
+  <data name="lastlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="lastlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lastlbl.Text" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="&gt;&gt;lastlbl.Name" xml:space="preserve">
+    <value>lastlbl</value>
+  </data>
+  <data name="&gt;&gt;lastlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lastlbl.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lastbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 155</value>
+  </data>
+  <data name="lastbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="lastbx.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;lastbx.Name" xml:space="preserve">
+    <value>lastbx</value>
+  </data>
+  <data name="&gt;&gt;lastbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lastbx.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="middlebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 155</value>
+  </data>
+  <data name="middlebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="middlebx.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;middlebx.Name" xml:space="preserve">
+    <value>middlebx</value>
+  </data>
+  <data name="&gt;&gt;middlebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;middlebx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;middlebx.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="middlelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="middlelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="middlelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 132</value>
+  </data>
+  <data name="middlelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="middlelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="middlelbl.Text" xml:space="preserve">
+    <value>Middle Name:</value>
+  </data>
+  <data name="&gt;&gt;middlelbl.Name" xml:space="preserve">
+    <value>middlelbl</value>
+  </data>
+  <data name="&gt;&gt;middlelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;middlelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;middlelbl.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="namelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="namelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="namelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 133</value>
+  </data>
+  <data name="namelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="namelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="namelbl.Text" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="&gt;&gt;namelbl.Name" xml:space="preserve">
+    <value>namelbl</value>
+  </data>
+  <data name="&gt;&gt;namelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;namelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;namelbl.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="namebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 155</value>
+  </data>
+  <data name="namebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 20</value>
+  </data>
+  <data name="namebx.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;namebx.Name" xml:space="preserve">
+    <value>namebx</value>
+  </data>
+  <data name="&gt;&gt;namebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;namebx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;namebx.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="profilelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="profilelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 11.25pt, style=Italic</value>
+  </data>
+  <data name="profilelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 108</value>
+  </data>
+  <data name="profilelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="profilelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="profilelbl.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="&gt;&gt;profilelbl.Name" xml:space="preserve">
+    <value>profilelbl</value>
+  </data>
+  <data name="&gt;&gt;profilelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;profilelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;profilelbl.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="barangaylbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="barangaylbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="barangaylbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 294</value>
+  </data>
+  <data name="barangaylbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="barangaylbl.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="barangaylbl.Text" xml:space="preserve">
+    <value>Barangay:</value>
+  </data>
+  <data name="&gt;&gt;barangaylbl.Name" xml:space="preserve">
+    <value>barangaylbl</value>
+  </data>
+  <data name="&gt;&gt;barangaylbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barangaylbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barangaylbl.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="municipalitybx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 272</value>
+  </data>
+  <data name="municipalitybx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 20</value>
+  </data>
+  <data name="municipalitybx.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;municipalitybx.Name" xml:space="preserve">
+    <value>municipalitybx</value>
+  </data>
+  <data name="&gt;&gt;municipalitybx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;municipalitybx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;municipalitybx.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Municipalitylbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Municipalitylbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="Municipalitylbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 249</value>
+  </data>
+  <data name="Municipalitylbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="Municipalitylbl.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="Municipalitylbl.Text" xml:space="preserve">
+    <value>Municipality:</value>
+  </data>
+  <data name="&gt;&gt;Municipalitylbl.Name" xml:space="preserve">
+    <value>Municipalitylbl</value>
+  </data>
+  <data name="&gt;&gt;Municipalitylbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Municipalitylbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Municipalitylbl.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="provincelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="provincelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="provincelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 249</value>
+  </data>
+  <data name="provincelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="provincelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="provincelbl.Text" xml:space="preserve">
+    <value>Province:</value>
+  </data>
+  <data name="&gt;&gt;provincelbl.Name" xml:space="preserve">
+    <value>provincelbl</value>
+  </data>
+  <data name="&gt;&gt;provincelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;provincelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;provincelbl.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="regionbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 272</value>
+  </data>
+  <data name="regionbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="regionbx.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;regionbx.Name" xml:space="preserve">
+    <value>regionbx</value>
+  </data>
+  <data name="&gt;&gt;regionbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;regionbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;regionbx.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="regionlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="regionlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="regionlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 249</value>
+  </data>
+  <data name="regionlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="regionlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="regionlbl.Text" xml:space="preserve">
+    <value>Region:</value>
+  </data>
+  <data name="&gt;&gt;regionlbl.Name" xml:space="preserve">
+    <value>regionlbl</value>
+  </data>
+  <data name="&gt;&gt;regionlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;regionlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;regionlbl.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="addresslbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="addresslbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 11.25pt, style=Italic</value>
+  </data>
+  <data name="addresslbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 228</value>
+  </data>
+  <data name="addresslbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="addresslbl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="addresslbl.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;addresslbl.Name" xml:space="preserve">
+    <value>addresslbl</value>
+  </data>
+  <data name="&gt;&gt;addresslbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addresslbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addresslbl.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Submit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 12pt</value>
+  </data>
+  <data name="Submit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 754</value>
+  </data>
+  <data name="Submit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 33</value>
+  </data>
+  <data name="Submit.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="Submit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="&gt;&gt;Submit.Name" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="&gt;&gt;Submit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Submit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Submit.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="feverlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="feverlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="feverlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 482</value>
+  </data>
+  <data name="feverlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="feverlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;feverlbl.Name" xml:space="preserve">
+    <value>feverlbl</value>
+  </data>
+  <data name="&gt;&gt;feverlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;feverlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;feverlbl.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="doyouexperiencelbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="doyouexperiencelbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 11.25pt, style=Italic</value>
+  </data>
+  <data name="doyouexperiencelbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 343</value>
+  </data>
+  <data name="doyouexperiencelbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="doyouexperiencelbl.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="doyouexperiencelbl.Text" xml:space="preserve">
+    <value>Do you experience the following?</value>
+  </data>
+  <data name="&gt;&gt;doyouexperiencelbl.Name" xml:space="preserve">
+    <value>doyouexperiencelbl</value>
+  </data>
+  <data name="&gt;&gt;doyouexperiencelbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doyouexperiencelbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;doyouexperiencelbl.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="provincebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 272</value>
+  </data>
+  <data name="provincebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 20</value>
+  </data>
+  <data name="provincebx.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;provincebx.Name" xml:space="preserve">
+    <value>provincebx</value>
+  </data>
+  <data name="&gt;&gt;provincebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;provincebx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;provincebx.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="barangaybx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 316</value>
+  </data>
+  <data name="barangaybx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 20</value>
+  </data>
+  <data name="barangaybx.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;barangaybx.Name" xml:space="preserve">
+    <value>barangaybx</value>
+  </data>
+  <data name="&gt;&gt;barangaybx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barangaybx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barangaybx.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.Name" xml:space="preserve">
+    <value>coughYesrb</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.Parent" xml:space="preserve">
+    <value>coughgroup</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.Name" xml:space="preserve">
+    <value>coughNorb</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.Parent" xml:space="preserve">
+    <value>coughgroup</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="coughgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="coughgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 430</value>
+  </data>
+  <data name="coughgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 55</value>
+  </data>
+  <data name="coughgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="coughgroup.Text" xml:space="preserve">
+    <value>Do you have a dry cough?</value>
+  </data>
+  <data name="&gt;&gt;coughgroup.Name" xml:space="preserve">
+    <value>coughgroup</value>
+  </data>
+  <data name="&gt;&gt;coughgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coughgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;coughgroup.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="coughYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="coughYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="coughYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="coughYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="coughYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.Name" xml:space="preserve">
+    <value>coughYesrb</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.Parent" xml:space="preserve">
+    <value>coughgroup</value>
+  </data>
+  <data name="&gt;&gt;coughYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="coughNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="coughNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="coughNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="coughNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="coughNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.Name" xml:space="preserve">
+    <value>coughNorb</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.Parent" xml:space="preserve">
+    <value>coughgroup</value>
+  </data>
+  <data name="&gt;&gt;coughNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.Name" xml:space="preserve">
+    <value>feveryesrb</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.Name" xml:space="preserve">
+    <value>feverNorb</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 369</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 55</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Do you have a fever?</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="feveryesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="feveryesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="feveryesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="feveryesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="feveryesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.Name" xml:space="preserve">
+    <value>feveryesrb</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;feveryesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="feverNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="feverNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="feverNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="feverNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="feverNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.Name" xml:space="preserve">
+    <value>feverNorb</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;feverNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.Name" xml:space="preserve">
+    <value>soreYesrb</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.Parent" xml:space="preserve">
+    <value>soregroup</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.Name" xml:space="preserve">
+    <value>soreNorb</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.Parent" xml:space="preserve">
+    <value>soregroup</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="soregroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="soregroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 551</value>
+  </data>
+  <data name="soregroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 55</value>
+  </data>
+  <data name="soregroup.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="soregroup.Text" xml:space="preserve">
+    <value>Do you have sore throat?</value>
+  </data>
+  <data name="&gt;&gt;soregroup.Name" xml:space="preserve">
+    <value>soregroup</value>
+  </data>
+  <data name="&gt;&gt;soregroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;soregroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;soregroup.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="soreYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="soreYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="soreYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="soreYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="soreYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.Name" xml:space="preserve">
+    <value>soreYesrb</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.Parent" xml:space="preserve">
+    <value>soregroup</value>
+  </data>
+  <data name="&gt;&gt;soreYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="soreNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="soreNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="soreNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="soreNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="soreNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.Name" xml:space="preserve">
+    <value>soreNorb</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.Parent" xml:space="preserve">
+    <value>soregroup</value>
+  </data>
+  <data name="&gt;&gt;soreNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.Name" xml:space="preserve">
+    <value>fatigueYesrb</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.Parent" xml:space="preserve">
+    <value>fatiguegroup</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.Name" xml:space="preserve">
+    <value>fatigueNorb</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.Parent" xml:space="preserve">
+    <value>fatiguegroup</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fatiguegroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="fatiguegroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 612</value>
+  </data>
+  <data name="fatiguegroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 58</value>
+  </data>
+  <data name="fatiguegroup.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="fatiguegroup.Text" xml:space="preserve">
+    <value>Do you experience fatigue?</value>
+  </data>
+  <data name="&gt;&gt;fatiguegroup.Name" xml:space="preserve">
+    <value>fatiguegroup</value>
+  </data>
+  <data name="&gt;&gt;fatiguegroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fatiguegroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fatiguegroup.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="fatigueYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fatigueYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="fatigueYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="fatigueYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="fatigueYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.Name" xml:space="preserve">
+    <value>fatigueYesrb</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.Parent" xml:space="preserve">
+    <value>fatiguegroup</value>
+  </data>
+  <data name="&gt;&gt;fatigueYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fatigueNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fatigueNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="fatigueNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="fatigueNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="fatigueNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.Name" xml:space="preserve">
+    <value>fatigueNorb</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.Parent" xml:space="preserve">
+    <value>fatiguegroup</value>
+  </data>
+  <data name="&gt;&gt;fatigueNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="contactbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 200</value>
+  </data>
+  <data name="contactbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="contactbx.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;contactbx.Name" xml:space="preserve">
+    <value>contactbx</value>
+  </data>
+  <data name="&gt;&gt;contactbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contactbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;contactbx.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="contactlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="contactlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="contactlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 177</value>
+  </data>
+  <data name="contactlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="contactlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="contactlbl.Text" xml:space="preserve">
+    <value>Contact No.</value>
+  </data>
+  <data name="&gt;&gt;contactlbl.Name" xml:space="preserve">
+    <value>contactlbl</value>
+  </data>
+  <data name="&gt;&gt;contactlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contactlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;contactlbl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.Name" xml:space="preserve">
+    <value>headYesrb</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.Parent" xml:space="preserve">
+    <value>headgroup</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;headNorb.Name" xml:space="preserve">
+    <value>headNorb</value>
+  </data>
+  <data name="&gt;&gt;headNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headNorb.Parent" xml:space="preserve">
+    <value>headgroup</value>
+  </data>
+  <data name="&gt;&gt;headNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="headgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="headgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 491</value>
+  </data>
+  <data name="headgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 55</value>
+  </data>
+  <data name="headgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="headgroup.Text" xml:space="preserve">
+    <value>Do you experience headache?</value>
+  </data>
+  <data name="&gt;&gt;headgroup.Name" xml:space="preserve">
+    <value>headgroup</value>
+  </data>
+  <data name="&gt;&gt;headgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;headgroup.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="headYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="headYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="headYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="headYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="headYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.Name" xml:space="preserve">
+    <value>headYesrb</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.Parent" xml:space="preserve">
+    <value>headgroup</value>
+  </data>
+  <data name="&gt;&gt;headYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="headNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="headNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="headNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="headNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="headNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;headNorb.Name" xml:space="preserve">
+    <value>headNorb</value>
+  </data>
+  <data name="&gt;&gt;headNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headNorb.Parent" xml:space="preserve">
+    <value>headgroup</value>
+  </data>
+  <data name="&gt;&gt;headNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.Name" xml:space="preserve">
+    <value>bodyYesrb</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.Parent" xml:space="preserve">
+    <value>bodygroup</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.Name" xml:space="preserve">
+    <value>bodyNorb</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.Parent" xml:space="preserve">
+    <value>bodygroup</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bodygroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="bodygroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 369</value>
+  </data>
+  <data name="bodygroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 55</value>
+  </data>
+  <data name="bodygroup.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="bodygroup.Text" xml:space="preserve">
+    <value>Do you experience body ache?</value>
+  </data>
+  <data name="&gt;&gt;bodygroup.Name" xml:space="preserve">
+    <value>bodygroup</value>
+  </data>
+  <data name="&gt;&gt;bodygroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bodygroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bodygroup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bodyYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bodyYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="bodyYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="bodyYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="bodyYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.Name" xml:space="preserve">
+    <value>bodyYesrb</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.Parent" xml:space="preserve">
+    <value>bodygroup</value>
+  </data>
+  <data name="&gt;&gt;bodyYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bodyNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bodyNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="bodyNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="bodyNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="bodyNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.Name" xml:space="preserve">
+    <value>bodyNorb</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.Parent" xml:space="preserve">
+    <value>bodygroup</value>
+  </data>
+  <data name="&gt;&gt;bodyNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.Name" xml:space="preserve">
+    <value>breathYesrb</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.Parent" xml:space="preserve">
+    <value>breathgroup</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.Name" xml:space="preserve">
+    <value>breathNorb</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.Parent" xml:space="preserve">
+    <value>breathgroup</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="breathgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="breathgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 682</value>
+  </data>
+  <data name="breathgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 55</value>
+  </data>
+  <data name="breathgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="breathgroup.Text" xml:space="preserve">
+    <value>Do you experience shortness of breath?</value>
+  </data>
+  <data name="&gt;&gt;breathgroup.Name" xml:space="preserve">
+    <value>breathgroup</value>
+  </data>
+  <data name="&gt;&gt;breathgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;breathgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;breathgroup.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="breathYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="breathYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="breathYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="breathYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="breathYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.Name" xml:space="preserve">
+    <value>breathYesrb</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.Parent" xml:space="preserve">
+    <value>breathgroup</value>
+  </data>
+  <data name="&gt;&gt;breathYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="breathNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="breathNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="breathNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="breathNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="breathNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.Name" xml:space="preserve">
+    <value>breathNorb</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.Parent" xml:space="preserve">
+    <value>breathgroup</value>
+  </data>
+  <data name="&gt;&gt;breathNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.Name" xml:space="preserve">
+    <value>diYesrb</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.Parent" xml:space="preserve">
+    <value>digroup</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;diNorb.Name" xml:space="preserve">
+    <value>diNorb</value>
+  </data>
+  <data name="&gt;&gt;diNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;diNorb.Parent" xml:space="preserve">
+    <value>digroup</value>
+  </data>
+  <data name="&gt;&gt;diNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="digroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="digroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 430</value>
+  </data>
+  <data name="digroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 55</value>
+  </data>
+  <data name="digroup.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="digroup.Text" xml:space="preserve">
+    <value>Do you experience diarrhea?</value>
+  </data>
+  <data name="&gt;&gt;digroup.Name" xml:space="preserve">
+    <value>digroup</value>
+  </data>
+  <data name="&gt;&gt;digroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;digroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;digroup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="diYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="diYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="diYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="diYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.Name" xml:space="preserve">
+    <value>diYesrb</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.Parent" xml:space="preserve">
+    <value>digroup</value>
+  </data>
+  <data name="&gt;&gt;diYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="diNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="diNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="diNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="diNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;diNorb.Name" xml:space="preserve">
+    <value>diNorb</value>
+  </data>
+  <data name="&gt;&gt;diNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;diNorb.Parent" xml:space="preserve">
+    <value>digroup</value>
+  </data>
+  <data name="&gt;&gt;diNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.Name" xml:space="preserve">
+    <value>smellYesrb</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.Parent" xml:space="preserve">
+    <value>smellgroup</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.Name" xml:space="preserve">
+    <value>smellNorb</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.Parent" xml:space="preserve">
+    <value>smellgroup</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="smellgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="smellgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 491</value>
+  </data>
+  <data name="smellgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 55</value>
+  </data>
+  <data name="smellgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="smellgroup.Text" xml:space="preserve">
+    <value>Do you experience loss of smell?</value>
+  </data>
+  <data name="&gt;&gt;smellgroup.Name" xml:space="preserve">
+    <value>smellgroup</value>
+  </data>
+  <data name="&gt;&gt;smellgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smellgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smellgroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="smellYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="smellYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="smellYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="smellYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="smellYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.Name" xml:space="preserve">
+    <value>smellYesrb</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.Parent" xml:space="preserve">
+    <value>smellgroup</value>
+  </data>
+  <data name="&gt;&gt;smellYesrb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="smellNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="smellNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="smellNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="smellNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="smellNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.Name" xml:space="preserve">
+    <value>smellNorb</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.Parent" xml:space="preserve">
+    <value>smellgroup</value>
+  </data>
+  <data name="&gt;&gt;smellNorb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;patientnote.Name" xml:space="preserve">
+    <value>patientnote</value>
+  </data>
+  <data name="&gt;&gt;patientnote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientnote.Parent" xml:space="preserve">
+    <value>patientgroup</value>
+  </data>
+  <data name="&gt;&gt;patientnote.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.Name" xml:space="preserve">
+    <value>patientYesrb</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.Parent" xml:space="preserve">
+    <value>patientgroup</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.Name" xml:space="preserve">
+    <value>patientNorb</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.Parent" xml:space="preserve">
+    <value>patientgroup</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="patientgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="patientgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 552</value>
+  </data>
+  <data name="patientgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 55</value>
+  </data>
+  <data name="patientgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="patientgroup.Text" xml:space="preserve">
+    <value>Have you had close contact with a covid 19 patient?</value>
+  </data>
+  <data name="&gt;&gt;patientgroup.Name" xml:space="preserve">
+    <value>patientgroup</value>
+  </data>
+  <data name="&gt;&gt;patientgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;patientgroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="patientnote.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="patientnote.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 8.25pt, style=Italic</value>
+  </data>
+  <data name="patientnote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="patientnote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="patientnote.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;patientnote.Name" xml:space="preserve">
+    <value>patientnote</value>
+  </data>
+  <data name="&gt;&gt;patientnote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientnote.Parent" xml:space="preserve">
+    <value>patientgroup</value>
+  </data>
+  <data name="&gt;&gt;patientnote.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="patientYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="patientYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 23</value>
+  </data>
+  <data name="patientYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="patientYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="patientYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.Name" xml:space="preserve">
+    <value>patientYesrb</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.Parent" xml:space="preserve">
+    <value>patientgroup</value>
+  </data>
+  <data name="&gt;&gt;patientYesrb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="patientNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="patientNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="patientNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="patientNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="patientNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.Name" xml:space="preserve">
+    <value>patientNorb</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.Parent" xml:space="preserve">
+    <value>patientgroup</value>
+  </data>
+  <data name="&gt;&gt;patientNorb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.Name" xml:space="preserve">
+    <value>exposurebx</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.Parent" xml:space="preserve">
+    <value>exposuregroup</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>exposuregroup</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="exposuregroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="exposuregroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 615</value>
+  </data>
+  <data name="exposuregroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 55</value>
+  </data>
+  <data name="exposuregroup.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="exposuregroup.Text" xml:space="preserve">
+    <value>If yes, state the date of the exposure.</value>
+  </data>
+  <data name="&gt;&gt;exposuregroup.Name" xml:space="preserve">
+    <value>exposuregroup</value>
+  </data>
+  <data name="&gt;&gt;exposuregroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exposuregroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;exposuregroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="exposurebx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="exposurebx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 24</value>
+  </data>
+  <data name="exposurebx.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.Name" xml:space="preserve">
+    <value>exposurebx</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.Parent" xml:space="preserve">
+    <value>exposuregroup</value>
+  </data>
+  <data name="&gt;&gt;exposurebx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 8.25pt, style=Italic</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>exposuregroup</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>ctgroup</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.Name" xml:space="preserve">
+    <value>ctYesrb</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.Parent" xml:space="preserve">
+    <value>ctgroup</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.Name" xml:space="preserve">
+    <value>ctNorb</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.Parent" xml:space="preserve">
+    <value>ctgroup</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctgroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 10pt</value>
+  </data>
+  <data name="ctgroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 684</value>
+  </data>
+  <data name="ctgroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 55</value>
+  </data>
+  <data name="ctgroup.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="ctgroup.Text" xml:space="preserve">
+    <value>Have you gone somewhere outside your residence/city?
+</value>
+  </data>
+  <data name="&gt;&gt;ctgroup.Name" xml:space="preserve">
+    <value>ctgroup</value>
+  </data>
+  <data name="&gt;&gt;ctgroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctgroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ctgroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Display, 8.25pt, style=Italic</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>ctgroup</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ctYesrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctYesrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 23</value>
+  </data>
+  <data name="ctYesrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="ctYesrb.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="ctYesrb.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.Name" xml:space="preserve">
+    <value>ctYesrb</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.Parent" xml:space="preserve">
+    <value>ctgroup</value>
+  </data>
+  <data name="&gt;&gt;ctYesrb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ctNorb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctNorb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="ctNorb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="ctNorb.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="ctNorb.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.Name" xml:space="preserve">
+    <value>ctNorb</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.Parent" xml:space="preserve">
+    <value>ctgroup</value>
+  </data>
+  <data name="&gt;&gt;ctNorb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>740, 805</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Contact Tracing Form</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Contacttracing</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

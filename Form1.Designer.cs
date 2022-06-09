@@ -29,6 +29,7 @@ namespace Contact_Tracing_Form_updated
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Contacttracing));
             this.formlbl = new System.Windows.Forms.Label();
             this.temperaturebx = new System.Windows.Forms.TextBox();
             this.temperaturelbl = new System.Windows.Forms.Label();
@@ -117,352 +118,209 @@ namespace Contact_Tracing_Form_updated
             // 
             // formlbl
             // 
-            this.formlbl.AutoSize = true;
-            this.formlbl.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.formlbl.Location = new System.Drawing.Point(135, 11);
+            resources.ApplyResources(this.formlbl, "formlbl");
             this.formlbl.Name = "formlbl";
-            this.formlbl.Size = new System.Drawing.Size(439, 38);
-            this.formlbl.TabIndex = 1;
-            this.formlbl.Text = "COVID 19 Contact Tracing Form";
             // 
             // temperaturebx
             // 
-            this.temperaturebx.Location = new System.Drawing.Point(475, 85);
+            resources.ApplyResources(this.temperaturebx, "temperaturebx");
             this.temperaturebx.Name = "temperaturebx";
-            this.temperaturebx.Size = new System.Drawing.Size(225, 20);
-            this.temperaturebx.TabIndex = 12;
             this.temperaturebx.TextChanged += new System.EventHandler(this.temperaturebx_TextChanged);
             // 
             // temperaturelbl
             // 
-            this.temperaturelbl.AutoSize = true;
-            this.temperaturelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.temperaturelbl.Location = new System.Drawing.Point(471, 62);
+            resources.ApplyResources(this.temperaturelbl, "temperaturelbl");
             this.temperaturelbl.Name = "temperaturelbl";
-            this.temperaturelbl.Size = new System.Drawing.Size(83, 20);
-            this.temperaturelbl.TabIndex = 11;
-            this.temperaturelbl.Text = "Temperature:";
             this.temperaturelbl.Click += new System.EventHandler(this.temperaturelbl_Click);
             // 
             // timebx
             // 
-            this.timebx.Location = new System.Drawing.Point(201, 85);
+            resources.ApplyResources(this.timebx, "timebx");
             this.timebx.Name = "timebx";
-            this.timebx.Size = new System.Drawing.Size(146, 20);
-            this.timebx.TabIndex = 10;
             // 
             // timelbl
             // 
-            this.timelbl.AutoSize = true;
-            this.timelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.timelbl.Location = new System.Drawing.Point(198, 62);
+            resources.ApplyResources(this.timelbl, "timelbl");
             this.timelbl.Name = "timelbl";
-            this.timelbl.Size = new System.Drawing.Size(42, 20);
-            this.timelbl.TabIndex = 9;
-            this.timelbl.Text = "Time:";
             // 
             // datebx
             // 
-            this.datebx.Location = new System.Drawing.Point(35, 85);
+            resources.ApplyResources(this.datebx, "datebx");
             this.datebx.Name = "datebx";
-            this.datebx.Size = new System.Drawing.Size(149, 20);
-            this.datebx.TabIndex = 8;
             // 
             // datelbl
             // 
-            this.datelbl.AutoSize = true;
-            this.datelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.datelbl.Location = new System.Drawing.Point(31, 62);
+            resources.ApplyResources(this.datelbl, "datelbl");
             this.datelbl.Name = "datelbl";
-            this.datelbl.Size = new System.Drawing.Size(41, 20);
-            this.datelbl.TabIndex = 7;
-            this.datelbl.Text = "Date: ";
             // 
             // emailbx
             // 
-            this.emailbx.Location = new System.Drawing.Point(475, 200);
+            resources.ApplyResources(this.emailbx, "emailbx");
             this.emailbx.Name = "emailbx";
-            this.emailbx.Size = new System.Drawing.Size(225, 20);
-            this.emailbx.TabIndex = 33;
             // 
             // emaillbl
             // 
-            this.emaillbl.AutoSize = true;
-            this.emaillbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.emaillbl.Location = new System.Drawing.Point(471, 177);
+            resources.ApplyResources(this.emaillbl, "emaillbl");
             this.emaillbl.Name = "emaillbl";
-            this.emaillbl.Size = new System.Drawing.Size(91, 20);
-            this.emaillbl.TabIndex = 32;
-            this.emaillbl.Text = "Email Address:";
             // 
             // agelbl
             // 
-            this.agelbl.AutoSize = true;
-            this.agelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.agelbl.Location = new System.Drawing.Point(197, 177);
+            resources.ApplyResources(this.agelbl, "agelbl");
             this.agelbl.Name = "agelbl";
-            this.agelbl.Size = new System.Drawing.Size(34, 20);
-            this.agelbl.TabIndex = 31;
-            this.agelbl.Text = "Age:";
             // 
             // agebx
             // 
-            this.agebx.Location = new System.Drawing.Point(199, 200);
+            resources.ApplyResources(this.agebx, "agebx");
             this.agebx.Name = "agebx";
-            this.agebx.Size = new System.Drawing.Size(65, 20);
-            this.agebx.TabIndex = 30;
             // 
             // birthbx
             // 
-            this.birthbx.Location = new System.Drawing.Point(35, 200);
+            resources.ApplyResources(this.birthbx, "birthbx");
             this.birthbx.Name = "birthbx";
-            this.birthbx.Size = new System.Drawing.Size(151, 20);
-            this.birthbx.TabIndex = 29;
             // 
             // birthlbl
             // 
-            this.birthlbl.AutoSize = true;
-            this.birthlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.birthlbl.Location = new System.Drawing.Point(31, 178);
+            resources.ApplyResources(this.birthlbl, "birthlbl");
             this.birthlbl.Name = "birthlbl";
-            this.birthlbl.Size = new System.Drawing.Size(83, 20);
-            this.birthlbl.TabIndex = 28;
-            this.birthlbl.Text = "Date of Birth:";
             // 
             // lastlbl
             // 
-            this.lastlbl.AutoSize = true;
-            this.lastlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.lastlbl.Location = new System.Drawing.Point(471, 132);
+            resources.ApplyResources(this.lastlbl, "lastlbl");
             this.lastlbl.Name = "lastlbl";
-            this.lastlbl.Size = new System.Drawing.Size(70, 20);
-            this.lastlbl.TabIndex = 27;
-            this.lastlbl.Text = "Last Name:";
             // 
             // lastbx
             // 
-            this.lastbx.Location = new System.Drawing.Point(475, 155);
+            resources.ApplyResources(this.lastbx, "lastbx");
             this.lastbx.Name = "lastbx";
-            this.lastbx.Size = new System.Drawing.Size(225, 20);
-            this.lastbx.TabIndex = 26;
             // 
             // middlebx
             // 
-            this.middlebx.Location = new System.Drawing.Point(284, 155);
+            resources.ApplyResources(this.middlebx, "middlebx");
             this.middlebx.Name = "middlebx";
-            this.middlebx.Size = new System.Drawing.Size(170, 20);
-            this.middlebx.TabIndex = 25;
             this.middlebx.TextChanged += new System.EventHandler(this.middlebx_TextChanged);
             // 
             // middlelbl
             // 
-            this.middlelbl.AutoSize = true;
-            this.middlelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.middlelbl.Location = new System.Drawing.Point(280, 132);
+            resources.ApplyResources(this.middlelbl, "middlelbl");
             this.middlelbl.Name = "middlelbl";
-            this.middlelbl.Size = new System.Drawing.Size(86, 20);
-            this.middlelbl.TabIndex = 24;
-            this.middlelbl.Text = "Middle Name:";
             // 
             // namelbl
             // 
-            this.namelbl.AutoSize = true;
-            this.namelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.namelbl.Location = new System.Drawing.Point(31, 133);
+            resources.ApplyResources(this.namelbl, "namelbl");
             this.namelbl.Name = "namelbl";
-            this.namelbl.Size = new System.Drawing.Size(73, 20);
-            this.namelbl.TabIndex = 23;
-            this.namelbl.Text = "First Name:";
             // 
             // namebx
             // 
-            this.namebx.Location = new System.Drawing.Point(35, 155);
+            resources.ApplyResources(this.namebx, "namebx");
             this.namebx.Name = "namebx";
-            this.namebx.Size = new System.Drawing.Size(229, 20);
-            this.namebx.TabIndex = 22;
             // 
             // profilelbl
             // 
-            this.profilelbl.AutoSize = true;
-            this.profilelbl.Font = new System.Drawing.Font("Sitka Display", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.profilelbl.Location = new System.Drawing.Point(31, 108);
+            resources.ApplyResources(this.profilelbl, "profilelbl");
             this.profilelbl.Name = "profilelbl";
-            this.profilelbl.Size = new System.Drawing.Size(49, 21);
-            this.profilelbl.TabIndex = 21;
-            this.profilelbl.Text = "Profile";
             // 
             // barangaylbl
             // 
-            this.barangaylbl.AutoSize = true;
-            this.barangaylbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.barangaylbl.Location = new System.Drawing.Point(36, 294);
+            resources.ApplyResources(this.barangaylbl, "barangaylbl");
             this.barangaylbl.Name = "barangaylbl";
-            this.barangaylbl.Size = new System.Drawing.Size(64, 20);
-            this.barangaylbl.TabIndex = 41;
-            this.barangaylbl.Text = "Barangay:";
             // 
             // municipalitybx
             // 
-            this.municipalitybx.Location = new System.Drawing.Point(493, 272);
+            resources.ApplyResources(this.municipalitybx, "municipalitybx");
             this.municipalitybx.Name = "municipalitybx";
-            this.municipalitybx.Size = new System.Drawing.Size(207, 20);
-            this.municipalitybx.TabIndex = 40;
             // 
             // Municipalitylbl
             // 
-            this.Municipalitylbl.AutoSize = true;
-            this.Municipalitylbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.Municipalitylbl.Location = new System.Drawing.Point(490, 249);
+            resources.ApplyResources(this.Municipalitylbl, "Municipalitylbl");
             this.Municipalitylbl.Name = "Municipalitylbl";
-            this.Municipalitylbl.Size = new System.Drawing.Size(82, 20);
-            this.Municipalitylbl.TabIndex = 39;
-            this.Municipalitylbl.Text = "Municipality:";
             // 
             // provincelbl
             // 
-            this.provincelbl.AutoSize = true;
-            this.provincelbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.provincelbl.Location = new System.Drawing.Point(271, 249);
+            resources.ApplyResources(this.provincelbl, "provincelbl");
             this.provincelbl.Name = "provincelbl";
-            this.provincelbl.Size = new System.Drawing.Size(61, 20);
-            this.provincelbl.TabIndex = 37;
-            this.provincelbl.Text = "Province:";
             // 
             // regionbx
             // 
-            this.regionbx.Location = new System.Drawing.Point(37, 272);
+            resources.ApplyResources(this.regionbx, "regionbx");
             this.regionbx.Name = "regionbx";
-            this.regionbx.Size = new System.Drawing.Size(227, 20);
-            this.regionbx.TabIndex = 36;
             // 
             // regionlbl
             // 
-            this.regionlbl.AutoSize = true;
-            this.regionlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.regionlbl.Location = new System.Drawing.Point(33, 249);
+            resources.ApplyResources(this.regionlbl, "regionlbl");
             this.regionlbl.Name = "regionlbl";
-            this.regionlbl.Size = new System.Drawing.Size(52, 20);
-            this.regionlbl.TabIndex = 35;
-            this.regionlbl.Text = "Region:";
             // 
             // addresslbl
             // 
-            this.addresslbl.AutoSize = true;
-            this.addresslbl.Font = new System.Drawing.Font("Sitka Display", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addresslbl.Location = new System.Drawing.Point(33, 228);
+            resources.ApplyResources(this.addresslbl, "addresslbl");
             this.addresslbl.Name = "addresslbl";
-            this.addresslbl.Size = new System.Drawing.Size(56, 21);
-            this.addresslbl.TabIndex = 34;
-            this.addresslbl.Text = "Address";
             // 
             // Submit
             // 
-            this.Submit.Font = new System.Drawing.Font("Sitka Display", 12F);
-            this.Submit.Location = new System.Drawing.Point(296, 754);
+            resources.ApplyResources(this.Submit, "Submit");
             this.Submit.Name = "Submit";
-            this.Submit.Size = new System.Drawing.Size(112, 33);
-            this.Submit.TabIndex = 43;
-            this.Submit.Text = "Submit";
             this.Submit.UseVisualStyleBackColor = true;
             this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
             // feverlbl
             // 
-            this.feverlbl.AutoSize = true;
+            resources.ApplyResources(this.feverlbl, "feverlbl");
             this.feverlbl.BackColor = System.Drawing.Color.Transparent;
-            this.feverlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.feverlbl.Location = new System.Drawing.Point(385, 482);
             this.feverlbl.Name = "feverlbl";
-            this.feverlbl.Size = new System.Drawing.Size(0, 20);
-            this.feverlbl.TabIndex = 45;
             // 
             // doyouexperiencelbl
             // 
-            this.doyouexperiencelbl.AutoSize = true;
+            resources.ApplyResources(this.doyouexperiencelbl, "doyouexperiencelbl");
             this.doyouexperiencelbl.BackColor = System.Drawing.Color.Transparent;
-            this.doyouexperiencelbl.Font = new System.Drawing.Font("Sitka Display", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doyouexperiencelbl.Location = new System.Drawing.Point(36, 343);
             this.doyouexperiencelbl.Name = "doyouexperiencelbl";
-            this.doyouexperiencelbl.Size = new System.Drawing.Size(207, 21);
-            this.doyouexperiencelbl.TabIndex = 44;
-            this.doyouexperiencelbl.Text = "Do you experience the following?";
             // 
             // provincebx
             // 
-            this.provincebx.Location = new System.Drawing.Point(272, 272);
+            resources.ApplyResources(this.provincebx, "provincebx");
             this.provincebx.Name = "provincebx";
-            this.provincebx.Size = new System.Drawing.Size(212, 20);
-            this.provincebx.TabIndex = 58;
             // 
             // barangaybx
             // 
-            this.barangaybx.Location = new System.Drawing.Point(40, 316);
+            resources.ApplyResources(this.barangaybx, "barangaybx");
             this.barangaybx.Name = "barangaybx";
-            this.barangaybx.Size = new System.Drawing.Size(224, 20);
-            this.barangaybx.TabIndex = 59;
             // 
             // coughgroup
             // 
             this.coughgroup.Controls.Add(this.coughYesrb);
             this.coughgroup.Controls.Add(this.coughNorb);
-            this.coughgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.coughgroup.Location = new System.Drawing.Point(40, 430);
+            resources.ApplyResources(this.coughgroup, "coughgroup");
             this.coughgroup.Name = "coughgroup";
-            this.coughgroup.Size = new System.Drawing.Size(292, 55);
-            this.coughgroup.TabIndex = 60;
             this.coughgroup.TabStop = false;
-            this.coughgroup.Text = "Do you have a dry cough?";
             // 
             // coughYesrb
             // 
-            this.coughYesrb.AutoSize = true;
-            this.coughYesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.coughYesrb, "coughYesrb");
             this.coughYesrb.Name = "coughYesrb";
-            this.coughYesrb.Size = new System.Drawing.Size(45, 24);
-            this.coughYesrb.TabIndex = 61;
-            this.coughYesrb.Text = "Yes";
             this.coughYesrb.UseVisualStyleBackColor = true;
             // 
             // coughNorb
             // 
-            this.coughNorb.AutoSize = true;
-            this.coughNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.coughNorb, "coughNorb");
             this.coughNorb.Name = "coughNorb";
-            this.coughNorb.Size = new System.Drawing.Size(43, 24);
-            this.coughNorb.TabIndex = 59;
-            this.coughNorb.Text = "No";
             this.coughNorb.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.feveryesrb);
             this.groupBox2.Controls.Add(this.feverNorb);
-            this.groupBox2.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.groupBox2.Location = new System.Drawing.Point(40, 369);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(292, 55);
-            this.groupBox2.TabIndex = 61;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Do you have a fever?";
             // 
             // feveryesrb
             // 
-            this.feveryesrb.AutoSize = true;
-            this.feveryesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.feveryesrb, "feveryesrb");
             this.feveryesrb.Name = "feveryesrb";
-            this.feveryesrb.Size = new System.Drawing.Size(45, 24);
-            this.feveryesrb.TabIndex = 62;
-            this.feveryesrb.Text = "Yes";
             this.feveryesrb.UseVisualStyleBackColor = true;
             // 
             // feverNorb
             // 
-            this.feverNorb.AutoSize = true;
-            this.feverNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.feverNorb, "feverNorb");
             this.feverNorb.Name = "feverNorb";
-            this.feverNorb.Size = new System.Drawing.Size(43, 24);
-            this.feverNorb.TabIndex = 57;
-            this.feverNorb.Text = "No";
             this.feverNorb.UseVisualStyleBackColor = true;
             this.feverNorb.CheckedChanged += new System.EventHandler(this.feverNorb_CheckedChanged);
             // 
@@ -470,241 +328,150 @@ namespace Contact_Tracing_Form_updated
             // 
             this.soregroup.Controls.Add(this.soreYesrb);
             this.soregroup.Controls.Add(this.soreNorb);
-            this.soregroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.soregroup.Location = new System.Drawing.Point(40, 551);
+            resources.ApplyResources(this.soregroup, "soregroup");
             this.soregroup.Name = "soregroup";
-            this.soregroup.Size = new System.Drawing.Size(292, 55);
-            this.soregroup.TabIndex = 62;
             this.soregroup.TabStop = false;
-            this.soregroup.Text = "Do you have sore throat?";
             // 
             // soreYesrb
             // 
-            this.soreYesrb.AutoSize = true;
-            this.soreYesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.soreYesrb, "soreYesrb");
             this.soreYesrb.Name = "soreYesrb";
-            this.soreYesrb.Size = new System.Drawing.Size(45, 24);
-            this.soreYesrb.TabIndex = 60;
-            this.soreYesrb.Text = "Yes";
             this.soreYesrb.UseVisualStyleBackColor = true;
             // 
             // soreNorb
             // 
-            this.soreNorb.AutoSize = true;
-            this.soreNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.soreNorb, "soreNorb");
             this.soreNorb.Name = "soreNorb";
-            this.soreNorb.Size = new System.Drawing.Size(43, 24);
-            this.soreNorb.TabIndex = 59;
-            this.soreNorb.Text = "No";
             this.soreNorb.UseVisualStyleBackColor = true;
             // 
             // fatiguegroup
             // 
             this.fatiguegroup.Controls.Add(this.fatigueYesrb);
             this.fatiguegroup.Controls.Add(this.fatigueNorb);
-            this.fatiguegroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.fatiguegroup.Location = new System.Drawing.Point(40, 612);
+            resources.ApplyResources(this.fatiguegroup, "fatiguegroup");
             this.fatiguegroup.Name = "fatiguegroup";
-            this.fatiguegroup.Size = new System.Drawing.Size(292, 58);
-            this.fatiguegroup.TabIndex = 63;
             this.fatiguegroup.TabStop = false;
-            this.fatiguegroup.Text = "Do you experience fatigue?";
             // 
             // fatigueYesrb
             // 
-            this.fatigueYesrb.AutoSize = true;
-            this.fatigueYesrb.Location = new System.Drawing.Point(29, 22);
+            resources.ApplyResources(this.fatigueYesrb, "fatigueYesrb");
             this.fatigueYesrb.Name = "fatigueYesrb";
-            this.fatigueYesrb.Size = new System.Drawing.Size(45, 24);
-            this.fatigueYesrb.TabIndex = 60;
-            this.fatigueYesrb.Text = "Yes";
             this.fatigueYesrb.UseVisualStyleBackColor = true;
             // 
             // fatigueNorb
             // 
-            this.fatigueNorb.AutoSize = true;
-            this.fatigueNorb.Location = new System.Drawing.Point(89, 22);
+            resources.ApplyResources(this.fatigueNorb, "fatigueNorb");
             this.fatigueNorb.Name = "fatigueNorb";
-            this.fatigueNorb.Size = new System.Drawing.Size(43, 24);
-            this.fatigueNorb.TabIndex = 59;
-            this.fatigueNorb.Text = "No";
             this.fatigueNorb.UseVisualStyleBackColor = true;
             // 
             // contactbx
             // 
-            this.contactbx.Location = new System.Drawing.Point(284, 200);
+            resources.ApplyResources(this.contactbx, "contactbx");
             this.contactbx.Name = "contactbx";
-            this.contactbx.Size = new System.Drawing.Size(170, 20);
-            this.contactbx.TabIndex = 65;
             // 
             // contactlbl
             // 
-            this.contactlbl.AutoSize = true;
-            this.contactlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.contactlbl.Location = new System.Drawing.Point(281, 177);
+            resources.ApplyResources(this.contactlbl, "contactlbl");
             this.contactlbl.Name = "contactlbl";
-            this.contactlbl.Size = new System.Drawing.Size(73, 20);
-            this.contactlbl.TabIndex = 64;
-            this.contactlbl.Text = "Contact No.";
             // 
             // headgroup
             // 
             this.headgroup.Controls.Add(this.headYesrb);
             this.headgroup.Controls.Add(this.headNorb);
-            this.headgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.headgroup.Location = new System.Drawing.Point(40, 491);
+            resources.ApplyResources(this.headgroup, "headgroup");
             this.headgroup.Name = "headgroup";
-            this.headgroup.Size = new System.Drawing.Size(292, 55);
-            this.headgroup.TabIndex = 63;
             this.headgroup.TabStop = false;
-            this.headgroup.Text = "Do you experience headache?";
             // 
             // headYesrb
             // 
-            this.headYesrb.AutoSize = true;
-            this.headYesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.headYesrb, "headYesrb");
             this.headYesrb.Name = "headYesrb";
-            this.headYesrb.Size = new System.Drawing.Size(45, 24);
-            this.headYesrb.TabIndex = 62;
-            this.headYesrb.Text = "Yes";
             this.headYesrb.UseVisualStyleBackColor = true;
             // 
             // headNorb
             // 
-            this.headNorb.AutoSize = true;
-            this.headNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.headNorb, "headNorb");
             this.headNorb.Name = "headNorb";
-            this.headNorb.Size = new System.Drawing.Size(43, 24);
-            this.headNorb.TabIndex = 57;
-            this.headNorb.Text = "No";
             this.headNorb.UseVisualStyleBackColor = true;
             // 
             // bodygroup
             // 
             this.bodygroup.Controls.Add(this.bodyYesrb);
             this.bodygroup.Controls.Add(this.bodyNorb);
-            this.bodygroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.bodygroup.Location = new System.Drawing.Point(371, 369);
+            resources.ApplyResources(this.bodygroup, "bodygroup");
             this.bodygroup.Name = "bodygroup";
-            this.bodygroup.Size = new System.Drawing.Size(329, 55);
-            this.bodygroup.TabIndex = 65;
             this.bodygroup.TabStop = false;
-            this.bodygroup.Text = "Do you experience body ache?";
             // 
             // bodyYesrb
             // 
-            this.bodyYesrb.AutoSize = true;
-            this.bodyYesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.bodyYesrb, "bodyYesrb");
             this.bodyYesrb.Name = "bodyYesrb";
-            this.bodyYesrb.Size = new System.Drawing.Size(45, 24);
-            this.bodyYesrb.TabIndex = 62;
-            this.bodyYesrb.Text = "Yes";
             this.bodyYesrb.UseVisualStyleBackColor = true;
             // 
             // bodyNorb
             // 
-            this.bodyNorb.AutoSize = true;
-            this.bodyNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.bodyNorb, "bodyNorb");
             this.bodyNorb.Name = "bodyNorb";
-            this.bodyNorb.Size = new System.Drawing.Size(43, 24);
-            this.bodyNorb.TabIndex = 57;
-            this.bodyNorb.Text = "No";
             this.bodyNorb.UseVisualStyleBackColor = true;
             // 
             // breathgroup
             // 
             this.breathgroup.Controls.Add(this.breathYesrb);
             this.breathgroup.Controls.Add(this.breathNorb);
-            this.breathgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.breathgroup.Location = new System.Drawing.Point(40, 682);
+            resources.ApplyResources(this.breathgroup, "breathgroup");
             this.breathgroup.Name = "breathgroup";
-            this.breathgroup.Size = new System.Drawing.Size(292, 55);
-            this.breathgroup.TabIndex = 66;
             this.breathgroup.TabStop = false;
-            this.breathgroup.Text = "Do you experience shortness of breath?";
             // 
             // breathYesrb
             // 
-            this.breathYesrb.AutoSize = true;
-            this.breathYesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.breathYesrb, "breathYesrb");
             this.breathYesrb.Name = "breathYesrb";
-            this.breathYesrb.Size = new System.Drawing.Size(45, 24);
-            this.breathYesrb.TabIndex = 62;
-            this.breathYesrb.Text = "Yes";
             this.breathYesrb.UseVisualStyleBackColor = true;
             // 
             // breathNorb
             // 
-            this.breathNorb.AutoSize = true;
-            this.breathNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.breathNorb, "breathNorb");
             this.breathNorb.Name = "breathNorb";
-            this.breathNorb.Size = new System.Drawing.Size(43, 24);
-            this.breathNorb.TabIndex = 57;
-            this.breathNorb.Text = "No";
             this.breathNorb.UseVisualStyleBackColor = true;
             // 
             // digroup
             // 
             this.digroup.Controls.Add(this.diYesrb);
             this.digroup.Controls.Add(this.diNorb);
-            this.digroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.digroup.Location = new System.Drawing.Point(371, 430);
+            resources.ApplyResources(this.digroup, "digroup");
             this.digroup.Name = "digroup";
-            this.digroup.Size = new System.Drawing.Size(329, 55);
-            this.digroup.TabIndex = 70;
             this.digroup.TabStop = false;
-            this.digroup.Text = "Do you experience diarrhea?";
             // 
             // diYesrb
             // 
-            this.diYesrb.AutoSize = true;
-            this.diYesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.diYesrb, "diYesrb");
             this.diYesrb.Name = "diYesrb";
-            this.diYesrb.Size = new System.Drawing.Size(45, 24);
-            this.diYesrb.TabIndex = 62;
-            this.diYesrb.Text = "Yes";
             this.diYesrb.UseVisualStyleBackColor = true;
             // 
             // diNorb
             // 
-            this.diNorb.AutoSize = true;
-            this.diNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.diNorb, "diNorb");
             this.diNorb.Name = "diNorb";
-            this.diNorb.Size = new System.Drawing.Size(43, 24);
-            this.diNorb.TabIndex = 57;
-            this.diNorb.Text = "No";
             this.diNorb.UseVisualStyleBackColor = true;
             // 
             // smellgroup
             // 
             this.smellgroup.Controls.Add(this.smellYesrb);
             this.smellgroup.Controls.Add(this.smellNorb);
-            this.smellgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.smellgroup.Location = new System.Drawing.Point(371, 491);
+            resources.ApplyResources(this.smellgroup, "smellgroup");
             this.smellgroup.Name = "smellgroup";
-            this.smellgroup.Size = new System.Drawing.Size(329, 55);
-            this.smellgroup.TabIndex = 72;
             this.smellgroup.TabStop = false;
-            this.smellgroup.Text = "Do you experience loss of smell?";
             // 
             // smellYesrb
             // 
-            this.smellYesrb.AutoSize = true;
-            this.smellYesrb.Location = new System.Drawing.Point(29, 23);
+            resources.ApplyResources(this.smellYesrb, "smellYesrb");
             this.smellYesrb.Name = "smellYesrb";
-            this.smellYesrb.Size = new System.Drawing.Size(45, 24);
-            this.smellYesrb.TabIndex = 62;
-            this.smellYesrb.Text = "Yes";
             this.smellYesrb.UseVisualStyleBackColor = true;
             // 
             // smellNorb
             // 
-            this.smellNorb.AutoSize = true;
-            this.smellNorb.Location = new System.Drawing.Point(89, 23);
+            resources.ApplyResources(this.smellNorb, "smellNorb");
             this.smellNorb.Name = "smellNorb";
-            this.smellNorb.Size = new System.Drawing.Size(43, 24);
-            this.smellNorb.TabIndex = 57;
-            this.smellNorb.Text = "No";
             this.smellNorb.UseVisualStyleBackColor = true;
             // 
             // patientgroup
@@ -712,118 +479,75 @@ namespace Contact_Tracing_Form_updated
             this.patientgroup.Controls.Add(this.patientnote);
             this.patientgroup.Controls.Add(this.patientYesrb);
             this.patientgroup.Controls.Add(this.patientNorb);
-            this.patientgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.patientgroup.Location = new System.Drawing.Point(371, 552);
+            resources.ApplyResources(this.patientgroup, "patientgroup");
             this.patientgroup.Name = "patientgroup";
-            this.patientgroup.Size = new System.Drawing.Size(329, 55);
-            this.patientgroup.TabIndex = 73;
             this.patientgroup.TabStop = false;
-            this.patientgroup.Text = "Have you had close contact with a covid 19 patient?";
             // 
             // patientnote
             // 
-            this.patientnote.AutoSize = true;
-            this.patientnote.Font = new System.Drawing.Font("Sitka Display", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientnote.Location = new System.Drawing.Point(6, 50);
+            resources.ApplyResources(this.patientnote, "patientnote");
             this.patientnote.Name = "patientnote";
-            this.patientnote.Size = new System.Drawing.Size(0, 16);
-            this.patientnote.TabIndex = 67;
             // 
             // patientYesrb
             // 
-            this.patientYesrb.AutoSize = true;
-            this.patientYesrb.Location = new System.Drawing.Point(22, 23);
+            resources.ApplyResources(this.patientYesrb, "patientYesrb");
             this.patientYesrb.Name = "patientYesrb";
-            this.patientYesrb.Size = new System.Drawing.Size(45, 24);
-            this.patientYesrb.TabIndex = 62;
-            this.patientYesrb.Text = "Yes";
             this.patientYesrb.UseVisualStyleBackColor = true;
             // 
             // patientNorb
             // 
-            this.patientNorb.AutoSize = true;
-            this.patientNorb.Location = new System.Drawing.Point(88, 24);
+            resources.ApplyResources(this.patientNorb, "patientNorb");
             this.patientNorb.Name = "patientNorb";
-            this.patientNorb.Size = new System.Drawing.Size(43, 24);
-            this.patientNorb.TabIndex = 57;
-            this.patientNorb.Text = "No";
             this.patientNorb.UseVisualStyleBackColor = true;
             // 
             // exposuregroup
             // 
             this.exposuregroup.Controls.Add(this.exposurebx);
             this.exposuregroup.Controls.Add(this.label3);
-            this.exposuregroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.exposuregroup.Location = new System.Drawing.Point(371, 615);
+            resources.ApplyResources(this.exposuregroup, "exposuregroup");
             this.exposuregroup.Name = "exposuregroup";
-            this.exposuregroup.Size = new System.Drawing.Size(329, 55);
-            this.exposuregroup.TabIndex = 74;
             this.exposuregroup.TabStop = false;
-            this.exposuregroup.Text = "If yes, state the date of the exposure.";
             // 
             // exposurebx
             // 
-            this.exposurebx.Location = new System.Drawing.Point(9, 23);
+            resources.ApplyResources(this.exposurebx, "exposurebx");
             this.exposurebx.Name = "exposurebx";
-            this.exposurebx.Size = new System.Drawing.Size(314, 24);
-            this.exposurebx.TabIndex = 69;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Sitka Display", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 50);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 16);
-            this.label3.TabIndex = 67;
             // 
             // ctgroup
             // 
             this.ctgroup.Controls.Add(this.label1);
             this.ctgroup.Controls.Add(this.ctYesrb);
             this.ctgroup.Controls.Add(this.ctNorb);
-            this.ctgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.ctgroup.Location = new System.Drawing.Point(371, 684);
+            resources.ApplyResources(this.ctgroup, "ctgroup");
             this.ctgroup.Name = "ctgroup";
-            this.ctgroup.Size = new System.Drawing.Size(329, 55);
-            this.ctgroup.TabIndex = 75;
             this.ctgroup.TabStop = false;
-            this.ctgroup.Text = "Have you gone somewhere outside your residence/city?\n";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Display", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 50);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 16);
-            this.label1.TabIndex = 67;
             // 
             // ctYesrb
             // 
-            this.ctYesrb.AutoSize = true;
-            this.ctYesrb.Location = new System.Drawing.Point(22, 23);
+            resources.ApplyResources(this.ctYesrb, "ctYesrb");
             this.ctYesrb.Name = "ctYesrb";
-            this.ctYesrb.Size = new System.Drawing.Size(45, 24);
-            this.ctYesrb.TabIndex = 62;
-            this.ctYesrb.Text = "Yes";
             this.ctYesrb.UseVisualStyleBackColor = true;
             // 
             // ctNorb
             // 
-            this.ctNorb.AutoSize = true;
-            this.ctNorb.Location = new System.Drawing.Point(88, 24);
+            resources.ApplyResources(this.ctNorb, "ctNorb");
             this.ctNorb.Name = "ctNorb";
-            this.ctNorb.Size = new System.Drawing.Size(43, 24);
-            this.ctNorb.TabIndex = 57;
-            this.ctNorb.Text = "No";
             this.ctNorb.UseVisualStyleBackColor = true;
             // 
             // Contacttracing
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 805);
             this.Controls.Add(this.ctgroup);
             this.Controls.Add(this.exposuregroup);
             this.Controls.Add(this.patientgroup);
@@ -873,7 +597,6 @@ namespace Contact_Tracing_Form_updated
             this.MaximizeBox = false;
             this.Name = "Contacttracing";
             this.ShowIcon = false;
-            this.Text = "Contact Tracing Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.coughgroup.ResumeLayout(false);
             this.coughgroup.PerformLayout();
