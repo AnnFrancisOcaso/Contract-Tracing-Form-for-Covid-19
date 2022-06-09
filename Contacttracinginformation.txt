@@ -11,3 +11,17 @@ Region: NCR
 Province: Metro Manila
 Municipality: Paranaque City
 Barangay: BF Homes
+Date: 
+Time: 
+Temperature: 
+First Name: 
+Middle Name: 
+Last Name: 
+Date of Birth: 
+Age: 
+Email Address: 
+Region: 
+Province: 
+Municipality: 
+Barangay: 
+Do you have a fever? Yes

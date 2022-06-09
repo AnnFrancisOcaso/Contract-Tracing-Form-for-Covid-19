@@ -50,6 +50,19 @@ namespace Contact_Tracing_Form_updated
             file.WriteLine("Municipality: " + municipalitybx.Text);
             file.WriteLine("Barangay: " + barangaybx.Text);
 
+            String Answer = "";
+            if (Yeslbl.Checked)
+            {
+                Answer = Yeslbl.Text;
+                file.WriteLine("Do you have a fever? " + "Yes");
+            }
+
+            if (Nolbl.Checked)
+            {
+                Answer = Nolbl.Text;
+                file.WriteLine("Do you have a fever?" + "No");
+            }
+
             file.Close();
         }
     }

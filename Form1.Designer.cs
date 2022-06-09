@@ -69,6 +69,8 @@ namespace Contact_Tracing_Form_updated
             this.breathlbl = new System.Windows.Forms.Label();
             this.diarrhealbl = new System.Windows.Forms.Label();
             this.headachelbl = new System.Windows.Forms.Label();
+            this.Nolbl = new System.Windows.Forms.RadioButton();
+            this.Yeslbl = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // formlbl
@@ -445,11 +447,35 @@ namespace Contact_Tracing_Form_updated
             this.headachelbl.TabIndex = 53;
             this.headachelbl.Text = "Do you experience headache?";
             // 
+            // Nolbl
+            // 
+            this.Nolbl.AutoSize = true;
+            this.Nolbl.Location = new System.Drawing.Point(379, 454);
+            this.Nolbl.Name = "Nolbl";
+            this.Nolbl.Size = new System.Drawing.Size(39, 17);
+            this.Nolbl.TabIndex = 55;
+            this.Nolbl.TabStop = true;
+            this.Nolbl.Text = "No";
+            this.Nolbl.UseVisualStyleBackColor = true;
+            // 
+            // Yeslbl
+            // 
+            this.Yeslbl.AutoSize = true;
+            this.Yeslbl.Location = new System.Drawing.Point(296, 454);
+            this.Yeslbl.Name = "Yeslbl";
+            this.Yeslbl.Size = new System.Drawing.Size(43, 17);
+            this.Yeslbl.TabIndex = 54;
+            this.Yeslbl.TabStop = true;
+            this.Yeslbl.Text = "Yes";
+            this.Yeslbl.UseVisualStyleBackColor = true;
+            // 
             // Contacttracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 786);
+            this.Controls.Add(this.Nolbl);
+            this.Controls.Add(this.Yeslbl);
             this.Controls.Add(this.headachelbl);
             this.Controls.Add(this.diarrhealbl);
             this.Controls.Add(this.breathlbl);
@@ -542,6 +568,8 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.Label breathlbl;
         private System.Windows.Forms.Label diarrhealbl;
         private System.Windows.Forms.Label headachelbl;
+        private System.Windows.Forms.RadioButton Nolbl;
+        private System.Windows.Forms.RadioButton Yeslbl;
     }
 }
 
