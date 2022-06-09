@@ -1,0 +1,10 @@
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\bin\Debug\Contact Tracing Form_updated.exe.config
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\bin\Debug\Contact Tracing Form_updated.exe
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\bin\Debug\Contact Tracing Form_updated.pdb
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\obj\Debug\Contact Tracing Form_updated.csproj.AssemblyReference.cache
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\obj\Debug\Contact_Tracing_Form_updated.Contacttracing.resources
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\obj\Debug\Contact_Tracing_Form_updated.Properties.Resources.resources
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\obj\Debug\Contact Tracing Form_updated.csproj.GenerateResource.cache
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\obj\Debug\Contact Tracing Form_updated.csproj.CoreCompileInputs.cache
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\obj\Debug\Contact Tracing Form_updated.exe
+C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\obj\Debug\Contact Tracing Form_updated.pdb
