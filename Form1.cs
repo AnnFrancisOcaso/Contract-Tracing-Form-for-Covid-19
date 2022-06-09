@@ -50,20 +50,56 @@ namespace Contact_Tracing_Form_updated
             file.WriteLine("Municipality: " + municipalitybx.Text);
             file.WriteLine("Barangay: " + barangaybx.Text);
 
-            String Answer = "";
-            if (Yeslbl.Checked)
+            String feverAnswer = "";
+            if (feveryesrb.Checked)
             {
-                Answer = Yeslbl.Text;
+                feverAnswer = feveryesrb.Text;
                 file.WriteLine("Do you have a fever? " + "Yes");
             }
 
-            if (Nolbl.Checked)
+            if (feverNorb.Checked)
             {
-                Answer = Nolbl.Text;
+                feverAnswer = feverNorb.Text;
                 file.WriteLine("Do you have a fever?" + "No");
             }
 
+
+            String coughAnswer = "";
+            if (coughYesrb.Checked)
+            {
+                coughAnswer = coughYesrb.Text;
+                file.WriteLine("Do you have a dry cough? " + "Yes");
+            }
+
+            if (coughNorb.Checked)
+            {
+                coughAnswer = coughNorb.Text;
+                file.WriteLine("Do you have a dry cough? " + "No");
+            }
+
+            String noseAnswer = "";
+            if (noseYesrb.Checked)
+            {
+                noseAnswer = noseYesrb.Text;
+                file.WriteLine("Do you have runny nose? " + "Yes");
+            }
+
+            if (noseNorb.Checked)
+            {
+                noseAnswer = noseNorb.Text;
+                file.WriteLine("Do you have runny nose? " + "No");
+            }
             file.Close();
+        }
+
+        private void feveryesrb_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void feverNorb_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

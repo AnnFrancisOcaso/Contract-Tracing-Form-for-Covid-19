@@ -25,3 +25,47 @@ Province:
 Municipality: 
 Barangay: 
 Do you have a fever? Yes
+Date: 
+Time: 
+Temperature: 
+First Name: 
+Middle Name: 
+Last Name: 
+Date of Birth: 
+Age: 
+Email Address: 
+Region: 
+Province: 
+Municipality: 
+Barangay: 
+Do you have a dry cough? Yes
+Date: 
+Time: 
+Temperature: 
+First Name: 
+Middle Name: 
+Last Name: 
+Date of Birth: 
+Age: 
+Email Address: 
+Region: 
+Province: 
+Municipality: 
+Barangay: 
+Do you have a fever? Yes
+Do you have a dry cough? No
+Date: 
+Time: 
+Temperature: 
+First Name: 
+Middle Name: 
+Last Name: 
+Date of Birth: 
+Age: 
+Email Address: 
+Region: 
+Province: 
+Municipality: 
+Barangay: 
+Do you have a fever? Yes
+Do you have a dry cough? Yes
