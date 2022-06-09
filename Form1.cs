@@ -64,7 +64,8 @@ namespace Contact_Tracing_Form_updated
                 file.WriteLine("Do you have a fever?" + "No");
             }
 
-
+            //radiobutton select yes or no
+                //Do you have a dry cough?
             String coughAnswer = "";
             if (coughYesrb.Checked)
             {
@@ -78,6 +79,7 @@ namespace Contact_Tracing_Form_updated
                 file.WriteLine("Do you have a dry cough? " + "No");
             }
 
+            //Do you have runny nose? 
             String noseAnswer = "";
             if (noseYesrb.Checked)
             {
@@ -91,19 +93,37 @@ namespace Contact_Tracing_Form_updated
                 file.WriteLine("Do you have runny nose? " + "No");
             }
 
+            //Do you have sore throat?
             String soreAnswer = "";
             if (noseYesrb.Checked)
             {
                 soreAnswer = soreYesrb.Text;
                 file.WriteLine("Do you have sore throat? " + "Yes");
-
             }
 
             if (soreNorb.Checked)
             {
                 soreAnswer = soreNorb.Text;
-                file.WriteLine("Do you have sore throat ? " + "No");
+                file.WriteLine("Do you have sore throat? " + "No");
             }
+
+            //Do you experience fatigue?
+            String fatigueAnswer = "";
+            if (noseYesrb.Checked)
+            {
+                fatigueAnswer = fatigueYesrb.Text;
+                file.WriteLine("Do you experience fatigue? " + "Yes");
+            }
+
+            if (fatigueNorb.Checked)
+            {
+                fatigueAnswer = fatigueNorb.Text;
+                file.WriteLine("Do you experience fatigue? " + "No");
+            }
+           
+            //
+
+
 
 
             file.Close();
