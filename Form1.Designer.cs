@@ -57,10 +57,8 @@ namespace Contact_Tracing_Form_updated
             this.regionlbl = new System.Windows.Forms.Label();
             this.addresslbl = new System.Windows.Forms.Label();
             this.Submit = new System.Windows.Forms.Button();
-            this.bodylbl = new System.Windows.Forms.Label();
             this.feverlbl = new System.Windows.Forms.Label();
             this.doyouexperiencelbl = new System.Windows.Forms.Label();
-            this.breathlbl = new System.Windows.Forms.Label();
             this.provincebx = new System.Windows.Forms.TextBox();
             this.barangaybx = new System.Windows.Forms.TextBox();
             this.coughgroup = new System.Windows.Forms.GroupBox();
@@ -88,7 +86,14 @@ namespace Contact_Tracing_Form_updated
             this.diarrheaNorb = new System.Windows.Forms.RadioButton();
             this.bodygroup = new System.Windows.Forms.GroupBox();
             this.bodyYesrb = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.bodyNorb = new System.Windows.Forms.RadioButton();
+            this.breathgroup = new System.Windows.Forms.GroupBox();
+            this.breathYesrb = new System.Windows.Forms.RadioButton();
+            this.breathNorb = new System.Windows.Forms.RadioButton();
+            this.vacgroup = new System.Windows.Forms.GroupBox();
+            this.vacYesrb = new System.Windows.Forms.RadioButton();
+            this.vacNorb = new System.Windows.Forms.RadioButton();
+            this.vaclbl = new System.Windows.Forms.Label();
             this.coughgroup.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.nosegroup.SuspendLayout();
@@ -97,13 +102,15 @@ namespace Contact_Tracing_Form_updated
             this.headgroup.SuspendLayout();
             this.diarrheagroup.SuspendLayout();
             this.bodygroup.SuspendLayout();
+            this.breathgroup.SuspendLayout();
+            this.vacgroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // formlbl
             // 
             this.formlbl.AutoSize = true;
             this.formlbl.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.formlbl.Location = new System.Drawing.Point(134, 9);
+            this.formlbl.Location = new System.Drawing.Point(134, 19);
             this.formlbl.Name = "formlbl";
             this.formlbl.Size = new System.Drawing.Size(439, 38);
             this.formlbl.TabIndex = 1;
@@ -342,24 +349,13 @@ namespace Contact_Tracing_Form_updated
             // Submit
             // 
             this.Submit.Font = new System.Drawing.Font("Sitka Display", 12F);
-            this.Submit.Location = new System.Drawing.Point(199, 730);
+            this.Submit.Location = new System.Drawing.Point(302, 743);
             this.Submit.Name = "Submit";
             this.Submit.Size = new System.Drawing.Size(112, 33);
             this.Submit.TabIndex = 43;
             this.Submit.Text = "Submit";
             this.Submit.UseVisualStyleBackColor = true;
             this.Submit.Click += new System.EventHandler(this.Submit_Click);
-            // 
-            // bodylbl
-            // 
-            this.bodylbl.AutoSize = true;
-            this.bodylbl.BackColor = System.Drawing.Color.Transparent;
-            this.bodylbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.bodylbl.Location = new System.Drawing.Point(348, 613);
-            this.bodylbl.Name = "bodylbl";
-            this.bodylbl.Size = new System.Drawing.Size(174, 20);
-            this.bodylbl.TabIndex = 48;
-            this.bodylbl.Text = "Do you experience body ache?";
             // 
             // feverlbl
             // 
@@ -376,22 +372,11 @@ namespace Contact_Tracing_Form_updated
             this.doyouexperiencelbl.AutoSize = true;
             this.doyouexperiencelbl.BackColor = System.Drawing.Color.Transparent;
             this.doyouexperiencelbl.Font = new System.Drawing.Font("Sitka Display", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doyouexperiencelbl.Location = new System.Drawing.Point(36, 371);
+            this.doyouexperiencelbl.Location = new System.Drawing.Point(36, 369);
             this.doyouexperiencelbl.Name = "doyouexperiencelbl";
             this.doyouexperiencelbl.Size = new System.Drawing.Size(207, 21);
             this.doyouexperiencelbl.TabIndex = 44;
             this.doyouexperiencelbl.Text = "Do you experience the following?";
-            // 
-            // breathlbl
-            // 
-            this.breathlbl.AutoSize = true;
-            this.breathlbl.BackColor = System.Drawing.Color.Transparent;
-            this.breathlbl.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.breathlbl.Location = new System.Drawing.Point(453, 661);
-            this.breathlbl.Name = "breathlbl";
-            this.breathlbl.Size = new System.Drawing.Size(222, 20);
-            this.breathlbl.TabIndex = 51;
-            this.breathlbl.Text = "Do you experience shortness of breath?";
             // 
             // provincebx
             // 
@@ -414,7 +399,7 @@ namespace Contact_Tracing_Form_updated
             this.coughgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
             this.coughgroup.Location = new System.Drawing.Point(40, 456);
             this.coughgroup.Name = "coughgroup";
-            this.coughgroup.Size = new System.Drawing.Size(177, 55);
+            this.coughgroup.Size = new System.Drawing.Size(292, 55);
             this.coughgroup.TabIndex = 60;
             this.coughgroup.TabStop = false;
             this.coughgroup.Text = "Do you have a dry cough?";
@@ -436,7 +421,7 @@ namespace Contact_Tracing_Form_updated
             this.groupBox2.Font = new System.Drawing.Font("Sitka Display", 10F);
             this.groupBox2.Location = new System.Drawing.Point(40, 395);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(177, 55);
+            this.groupBox2.Size = new System.Drawing.Size(292, 55);
             this.groupBox2.TabIndex = 61;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Do you have a fever?";
@@ -459,7 +444,7 @@ namespace Contact_Tracing_Form_updated
             this.nosegroup.Font = new System.Drawing.Font("Sitka Display", 10F);
             this.nosegroup.Location = new System.Drawing.Point(40, 516);
             this.nosegroup.Name = "nosegroup";
-            this.nosegroup.Size = new System.Drawing.Size(177, 55);
+            this.nosegroup.Size = new System.Drawing.Size(292, 55);
             this.nosegroup.TabIndex = 61;
             this.nosegroup.TabStop = false;
             this.nosegroup.Text = "Do you have runny nose?";
@@ -511,7 +496,7 @@ namespace Contact_Tracing_Form_updated
             this.soregroup.Font = new System.Drawing.Font("Sitka Display", 10F);
             this.soregroup.Location = new System.Drawing.Point(40, 577);
             this.soregroup.Name = "soregroup";
-            this.soregroup.Size = new System.Drawing.Size(177, 55);
+            this.soregroup.Size = new System.Drawing.Size(292, 55);
             this.soregroup.TabIndex = 62;
             this.soregroup.TabStop = false;
             this.soregroup.Text = "Do you have sore throat?";
@@ -543,7 +528,7 @@ namespace Contact_Tracing_Form_updated
             this.fatiguegroup.Font = new System.Drawing.Font("Sitka Display", 10F);
             this.fatiguegroup.Location = new System.Drawing.Point(40, 638);
             this.fatiguegroup.Name = "fatiguegroup";
-            this.fatiguegroup.Size = new System.Drawing.Size(177, 55);
+            this.fatiguegroup.Size = new System.Drawing.Size(292, 78);
             this.fatiguegroup.TabIndex = 63;
             this.fatiguegroup.TabStop = false;
             this.fatiguegroup.Text = "Do you experience fatigue?";
@@ -551,7 +536,7 @@ namespace Contact_Tracing_Form_updated
             // fatigueYesrb
             // 
             this.fatigueYesrb.AutoSize = true;
-            this.fatigueYesrb.Location = new System.Drawing.Point(29, 23);
+            this.fatigueYesrb.Location = new System.Drawing.Point(29, 32);
             this.fatigueYesrb.Name = "fatigueYesrb";
             this.fatigueYesrb.Size = new System.Drawing.Size(45, 24);
             this.fatigueYesrb.TabIndex = 60;
@@ -561,7 +546,7 @@ namespace Contact_Tracing_Form_updated
             // fatigueNorb
             // 
             this.fatigueNorb.AutoSize = true;
-            this.fatigueNorb.Location = new System.Drawing.Point(89, 23);
+            this.fatigueNorb.Location = new System.Drawing.Point(89, 32);
             this.fatigueNorb.Name = "fatigueNorb";
             this.fatigueNorb.Size = new System.Drawing.Size(43, 24);
             this.fatigueNorb.TabIndex = 59;
@@ -590,9 +575,9 @@ namespace Contact_Tracing_Form_updated
             this.headgroup.Controls.Add(this.headYesrb);
             this.headgroup.Controls.Add(this.headNorb);
             this.headgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.headgroup.Location = new System.Drawing.Point(275, 395);
+            this.headgroup.Location = new System.Drawing.Point(389, 395);
             this.headgroup.Name = "headgroup";
-            this.headgroup.Size = new System.Drawing.Size(212, 55);
+            this.headgroup.Size = new System.Drawing.Size(311, 55);
             this.headgroup.TabIndex = 63;
             this.headgroup.TabStop = false;
             this.headgroup.Text = "Do you experience headache?";
@@ -622,9 +607,9 @@ namespace Contact_Tracing_Form_updated
             this.diarrheagroup.Controls.Add(this.diarrheaYesrb);
             this.diarrheagroup.Controls.Add(this.diarrheaNorb);
             this.diarrheagroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.diarrheagroup.Location = new System.Drawing.Point(275, 456);
+            this.diarrheagroup.Location = new System.Drawing.Point(391, 456);
             this.diarrheagroup.Name = "diarrheagroup";
-            this.diarrheagroup.Size = new System.Drawing.Size(212, 55);
+            this.diarrheagroup.Size = new System.Drawing.Size(309, 55);
             this.diarrheagroup.TabIndex = 64;
             this.diarrheagroup.TabStop = false;
             this.diarrheagroup.Text = "Do you experience diarrhea?";
@@ -652,11 +637,11 @@ namespace Contact_Tracing_Form_updated
             // bodygroup
             // 
             this.bodygroup.Controls.Add(this.bodyYesrb);
-            this.bodygroup.Controls.Add(this.radioButton2);
+            this.bodygroup.Controls.Add(this.bodyNorb);
             this.bodygroup.Font = new System.Drawing.Font("Sitka Display", 10F);
-            this.bodygroup.Location = new System.Drawing.Point(275, 519);
+            this.bodygroup.Location = new System.Drawing.Point(391, 516);
             this.bodygroup.Name = "bodygroup";
-            this.bodygroup.Size = new System.Drawing.Size(212, 55);
+            this.bodygroup.Size = new System.Drawing.Size(309, 55);
             this.bodygroup.TabIndex = 65;
             this.bodygroup.TabStop = false;
             this.bodygroup.Text = "Do you experience body ache?";
@@ -671,21 +656,99 @@ namespace Contact_Tracing_Form_updated
             this.bodyYesrb.Text = "Yes";
             this.bodyYesrb.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // bodyNorb
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(89, 23);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(43, 24);
-            this.radioButton2.TabIndex = 57;
-            this.radioButton2.Text = "No";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.bodyNorb.AutoSize = true;
+            this.bodyNorb.Location = new System.Drawing.Point(89, 23);
+            this.bodyNorb.Name = "bodyNorb";
+            this.bodyNorb.Size = new System.Drawing.Size(43, 24);
+            this.bodyNorb.TabIndex = 57;
+            this.bodyNorb.Text = "No";
+            this.bodyNorb.UseVisualStyleBackColor = true;
+            // 
+            // breathgroup
+            // 
+            this.breathgroup.Controls.Add(this.breathYesrb);
+            this.breathgroup.Controls.Add(this.breathNorb);
+            this.breathgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
+            this.breathgroup.Location = new System.Drawing.Point(389, 577);
+            this.breathgroup.Name = "breathgroup";
+            this.breathgroup.Size = new System.Drawing.Size(311, 55);
+            this.breathgroup.TabIndex = 66;
+            this.breathgroup.TabStop = false;
+            this.breathgroup.Text = "Do you experience shortness of breath?";
+            // 
+            // breathYesrb
+            // 
+            this.breathYesrb.AutoSize = true;
+            this.breathYesrb.Location = new System.Drawing.Point(29, 23);
+            this.breathYesrb.Name = "breathYesrb";
+            this.breathYesrb.Size = new System.Drawing.Size(45, 24);
+            this.breathYesrb.TabIndex = 62;
+            this.breathYesrb.Text = "Yes";
+            this.breathYesrb.UseVisualStyleBackColor = true;
+            // 
+            // breathNorb
+            // 
+            this.breathNorb.AutoSize = true;
+            this.breathNorb.Location = new System.Drawing.Point(89, 23);
+            this.breathNorb.Name = "breathNorb";
+            this.breathNorb.Size = new System.Drawing.Size(43, 24);
+            this.breathNorb.TabIndex = 57;
+            this.breathNorb.Text = "No";
+            this.breathNorb.UseVisualStyleBackColor = true;
+            // 
+            // vacgroup
+            // 
+            this.vacgroup.Controls.Add(this.vacYesrb);
+            this.vacgroup.Controls.Add(this.vacNorb);
+            this.vacgroup.Font = new System.Drawing.Font("Sitka Display", 10F);
+            this.vacgroup.Location = new System.Drawing.Point(389, 661);
+            this.vacgroup.Name = "vacgroup";
+            this.vacgroup.Size = new System.Drawing.Size(311, 55);
+            this.vacgroup.TabIndex = 67;
+            this.vacgroup.TabStop = false;
+            this.vacgroup.Text = "Are you already vaccinated?";
+            // 
+            // vacYesrb
+            // 
+            this.vacYesrb.AutoSize = true;
+            this.vacYesrb.Location = new System.Drawing.Point(29, 23);
+            this.vacYesrb.Name = "vacYesrb";
+            this.vacYesrb.Size = new System.Drawing.Size(45, 24);
+            this.vacYesrb.TabIndex = 62;
+            this.vacYesrb.Text = "Yes";
+            this.vacYesrb.UseVisualStyleBackColor = true;
+            // 
+            // vacNorb
+            // 
+            this.vacNorb.AutoSize = true;
+            this.vacNorb.Location = new System.Drawing.Point(89, 23);
+            this.vacNorb.Name = "vacNorb";
+            this.vacNorb.Size = new System.Drawing.Size(43, 24);
+            this.vacNorb.TabIndex = 57;
+            this.vacNorb.Text = "No";
+            this.vacNorb.UseVisualStyleBackColor = true;
+            // 
+            // vaclbl
+            // 
+            this.vaclbl.AutoSize = true;
+            this.vaclbl.BackColor = System.Drawing.Color.Transparent;
+            this.vaclbl.Font = new System.Drawing.Font("Sitka Display", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vaclbl.Location = new System.Drawing.Point(395, 635);
+            this.vaclbl.Name = "vaclbl";
+            this.vaclbl.Size = new System.Drawing.Size(143, 21);
+            this.vaclbl.TabIndex = 68;
+            this.vaclbl.Text = "-Covid 19 Vaccination-";
             // 
             // Contacttracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 786);
+            this.ClientSize = new System.Drawing.Size(740, 797);
+            this.Controls.Add(this.vaclbl);
+            this.Controls.Add(this.vacgroup);
+            this.Controls.Add(this.breathgroup);
             this.Controls.Add(this.bodygroup);
             this.Controls.Add(this.diarrheagroup);
             this.Controls.Add(this.headgroup);
@@ -698,8 +761,6 @@ namespace Contact_Tracing_Form_updated
             this.Controls.Add(this.coughgroup);
             this.Controls.Add(this.barangaybx);
             this.Controls.Add(this.provincebx);
-            this.Controls.Add(this.breathlbl);
-            this.Controls.Add(this.bodylbl);
             this.Controls.Add(this.feverlbl);
             this.Controls.Add(this.doyouexperiencelbl);
             this.Controls.Add(this.Submit);
@@ -751,6 +812,10 @@ namespace Contact_Tracing_Form_updated
             this.diarrheagroup.PerformLayout();
             this.bodygroup.ResumeLayout(false);
             this.bodygroup.PerformLayout();
+            this.breathgroup.ResumeLayout(false);
+            this.breathgroup.PerformLayout();
+            this.vacgroup.ResumeLayout(false);
+            this.vacgroup.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -786,10 +851,8 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.Label regionlbl;
         private System.Windows.Forms.Label addresslbl;
         private System.Windows.Forms.Button Submit;
-        private System.Windows.Forms.Label bodylbl;
         private System.Windows.Forms.Label feverlbl;
         private System.Windows.Forms.Label doyouexperiencelbl;
-        private System.Windows.Forms.Label breathlbl;
         private System.Windows.Forms.TextBox provincebx;
         private System.Windows.Forms.TextBox barangaybx;
         private System.Windows.Forms.GroupBox coughgroup;
@@ -817,7 +880,14 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.RadioButton diarrheaNorb;
         private System.Windows.Forms.GroupBox bodygroup;
         private System.Windows.Forms.RadioButton bodyYesrb;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton bodyNorb;
+        private System.Windows.Forms.GroupBox breathgroup;
+        private System.Windows.Forms.RadioButton breathYesrb;
+        private System.Windows.Forms.RadioButton breathNorb;
+        private System.Windows.Forms.GroupBox vacgroup;
+        private System.Windows.Forms.RadioButton vacYesrb;
+        private System.Windows.Forms.RadioButton vacNorb;
+        private System.Windows.Forms.Label vaclbl;
     }
 }
 

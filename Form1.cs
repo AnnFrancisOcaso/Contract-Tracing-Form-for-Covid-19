@@ -109,7 +109,7 @@ namespace Contact_Tracing_Form_updated
 
             //Do you experience fatigue?
             String fatigueAnswer = "";
-            if (noseYesrb.Checked)
+            if (fatigueYesrb.Checked)
             {
                 fatigueAnswer = fatigueYesrb.Text;
                 file.WriteLine("Do you experience fatigue? " + "Yes");
@@ -120,11 +120,76 @@ namespace Contact_Tracing_Form_updated
                 fatigueAnswer = fatigueNorb.Text;
                 file.WriteLine("Do you experience fatigue? " + "No");
             }
-           
-            //
 
+            //Do you experience headache?
+            String headAnswer = "";
+            if (headYesrb.Checked)
+            {
+                headAnswer = headYesrb.Text;
+                file.WriteLine("Do you experience headache? " + "Yes");
+            }
 
+            if (headNorb.Checked)
+            {
+                headAnswer = headNorb.Text;
+                file.WriteLine("Do you experience headache? " + "No");
+            }
 
+            //Do you experience diarrhea?
+            String diarrheaAnswer = "";
+            if (diarrheaYesrb.Checked)
+            {
+                diarrheaAnswer = diarrheaYesrb.Text;
+                file.WriteLine("Do you experience diarrhea? " + "Yes");
+            }
+
+            if (diarrheaNorb.Checked)
+            {
+                diarrheaAnswer = diarrheaNorb.Text;
+                file.WriteLine("Do you experience diarrhea? " + "No");
+            }
+
+            //Do you experience body ache?
+            String bodyAnswer = "";
+            if (diarrheaYesrb.Checked)
+            {
+                bodyAnswer = bodyYesrb.Text;
+                file.WriteLine("Do you experience body ache? " + "Yes");
+            }
+
+            if (bodyNorb.Checked)
+            {
+                bodyAnswer = bodyNorb.Text;
+                file.WriteLine("Do you experience body ache? " + "No");
+            }
+
+            //Do you experience shortness of breath?
+            String breathAnswer = "";
+            if (breathYesrb.Checked)
+            {
+                breathAnswer = breathYesrb.Text;
+                file.WriteLine("Do you experience shortness of breath? " + "Yes");
+            }
+
+            if (breathNorb.Checked)
+            {
+                breathAnswer = breathNorb.Text;
+                file.WriteLine("Do you experience shortness of breath? " + "No");
+            }
+
+            //Are you already vaccinated?
+            String vacAnswer = "";
+            if (vacYesrb.Checked)
+            {
+                vacAnswer = vacYesrb.Text;
+                file.WriteLine("Do you experience shortness of breath? " + "Yes");
+            }
+
+            if (vacNorb.Checked)
+            {
+                vacAnswer = vacNorb.Text;
+                file.WriteLine("Do you experience shortness of breath? " + "No");
+            }
 
             file.Close();
         }
