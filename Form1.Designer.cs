@@ -58,6 +58,7 @@ namespace Contact_Tracing_Form_updated
             this.regionbx = new System.Windows.Forms.TextBox();
             this.regionlbl = new System.Windows.Forms.Label();
             this.addresslbl = new System.Windows.Forms.Label();
+            this.Submit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // formlbl
@@ -313,11 +314,22 @@ namespace Contact_Tracing_Form_updated
             this.addresslbl.TabIndex = 34;
             this.addresslbl.Text = "Address";
             // 
+            // Submit
+            // 
+            this.Submit.Font = new System.Drawing.Font("Sitka Display", 12F);
+            this.Submit.Location = new System.Drawing.Point(201, 714);
+            this.Submit.Name = "Submit";
+            this.Submit.Size = new System.Drawing.Size(112, 33);
+            this.Submit.TabIndex = 43;
+            this.Submit.Text = "Submit";
+            this.Submit.UseVisualStyleBackColor = true;
+            // 
             // Contacttracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 759);
+            this.Controls.Add(this.Submit);
             this.Controls.Add(this.barangaybx);
             this.Controls.Add(this.barangaylbl);
             this.Controls.Add(this.municipalitybx);
@@ -388,6 +400,7 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.TextBox regionbx;
         private System.Windows.Forms.Label regionlbl;
         private System.Windows.Forms.Label addresslbl;
+        private System.Windows.Forms.Button Submit;
     }
 }
 
