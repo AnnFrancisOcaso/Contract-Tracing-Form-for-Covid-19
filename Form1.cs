@@ -193,7 +193,7 @@ namespace Contact_Tracing_Form_updated
             }
 
             //11 date of exposure
-            file.WriteLine("If yes, state the date of the exposure. " + DateExposure.Text);
+            file.WriteLine("If yes, select the date of the exposure: " + DateExposure.Text);
 
             //Have you gone somewhere outside your residence/city?
             String cityAnswer = "";
@@ -209,7 +209,6 @@ namespace Contact_Tracing_Form_updated
                 file.WriteLine("Have you had close contact with a covid 19 patient? " + "No");
             }
 
-
             file.Close();
         }
 
@@ -222,6 +221,17 @@ namespace Contact_Tracing_Form_updated
         private void middlebx_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void finalcheckbttn_Click(object sender, EventArgs e)
+        {
+            StreamReader reader = new StreamReader(@"C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\Contacttracinginformation.txt");
+
+            while (!reader.EndOfStream)
+            {
+                String line = reader.ReadLine();
+                MessageBox.Show(line);
+            }
         }
     }
 }

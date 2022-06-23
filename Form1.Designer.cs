@@ -101,6 +101,7 @@ namespace Contact_Tracing_Form_updated
             this.ctNorb = new System.Windows.Forms.RadioButton();
             this.Datebttn = new System.Windows.Forms.DateTimePicker();
             this.DateExposure = new System.Windows.Forms.DateTimePicker();
+            this.finalcheckbttn = new System.Windows.Forms.Button();
             this.coughgroup.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.soregroup.SuspendLayout();
@@ -539,10 +540,18 @@ namespace Contact_Tracing_Form_updated
             this.DateExposure.Name = "DateExposure";
             this.DateExposure.Value = new System.DateTime(2022, 6, 24, 0, 0, 0, 0);
             // 
+            // finalcheckbttn
+            // 
+            resources.ApplyResources(this.finalcheckbttn, "finalcheckbttn");
+            this.finalcheckbttn.Name = "finalcheckbttn";
+            this.finalcheckbttn.UseVisualStyleBackColor = true;
+            this.finalcheckbttn.Click += new System.EventHandler(this.finalcheckbttn_Click);
+            // 
             // Contacttracing
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.finalcheckbttn);
             this.Controls.Add(this.Datebttn);
             this.Controls.Add(this.ctgroup);
             this.Controls.Add(this.exposuregroup);
@@ -694,6 +703,7 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.RadioButton ctNorb;
         private System.Windows.Forms.DateTimePicker Datebttn;
         private System.Windows.Forms.DateTimePicker DateExposure;
+        private System.Windows.Forms.Button finalcheckbttn;
     }
 }
 

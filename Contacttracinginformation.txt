@@ -1,15 +1,26 @@
 Date: Friday, June 24, 2022
-Time: 
-Temperature: 
-First Name: 
-Middle Name: 
-Last Name: 
-Date of Birth: 
-Age: 
-Contact No.: 
-Email Address: 
-Region: 
-Province: 
-Municipality: 
-Barangay: 
-If yes, state the date of the exposure. 
+Time: 12:30 am 
+Temperature: 36
+First Name: Ann Francis 
+Middle Name: Carnecer
+Last Name: Ocaso
+Date of Birth: 10/02/2002
+Age: 19
+Contact No.: 09565073838
+Email Address: ocasoannfrancis100202@gmail.com
+Region: NCR
+Province: Metro Manila
+Municipality: Paranaque City
+Barangay: BF Homes
+Do you have a fever?No
+Do you have a dry cough? No
+Do you experience headache? Yes
+Do you have sore throat? No
+Do you experience fatigue? Yes
+Do you experience shortness of breath? No
+Do you experience body ache? No
+Do you experience diarrhea? No
+Do you experience loss of smell? No
+Have you had close contact with a covid 19 patient? Yes
+If yes, select the date of the exposure: Wednesday, June 1, 2022
+Have you had close contact with a covid 19 patient? Yes
