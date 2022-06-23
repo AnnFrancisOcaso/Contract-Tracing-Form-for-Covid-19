@@ -35,7 +35,6 @@ namespace Contact_Tracing_Form_updated
             this.temperaturelbl = new System.Windows.Forms.Label();
             this.timebx = new System.Windows.Forms.TextBox();
             this.timelbl = new System.Windows.Forms.Label();
-            this.datebx = new System.Windows.Forms.TextBox();
             this.datelbl = new System.Windows.Forms.Label();
             this.emailbx = new System.Windows.Forms.TextBox();
             this.emaillbl = new System.Windows.Forms.Label();
@@ -96,12 +95,12 @@ namespace Contact_Tracing_Form_updated
             this.patientYesrb = new System.Windows.Forms.RadioButton();
             this.patientNorb = new System.Windows.Forms.RadioButton();
             this.exposuregroup = new System.Windows.Forms.GroupBox();
-            this.exposurebx = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.ctgroup = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.ctYesrb = new System.Windows.Forms.RadioButton();
             this.ctNorb = new System.Windows.Forms.RadioButton();
+            this.Datebttn = new System.Windows.Forms.DateTimePicker();
+            this.DateExposure = new System.Windows.Forms.DateTimePicker();
             this.coughgroup.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.soregroup.SuspendLayout();
@@ -142,11 +141,6 @@ namespace Contact_Tracing_Form_updated
             // 
             resources.ApplyResources(this.timelbl, "timelbl");
             this.timelbl.Name = "timelbl";
-            // 
-            // datebx
-            // 
-            resources.ApplyResources(this.datebx, "datebx");
-            this.datebx.Name = "datebx";
             // 
             // datelbl
             // 
@@ -502,21 +496,10 @@ namespace Contact_Tracing_Form_updated
             // 
             // exposuregroup
             // 
-            this.exposuregroup.Controls.Add(this.exposurebx);
-            this.exposuregroup.Controls.Add(this.label3);
+            this.exposuregroup.Controls.Add(this.DateExposure);
             resources.ApplyResources(this.exposuregroup, "exposuregroup");
             this.exposuregroup.Name = "exposuregroup";
             this.exposuregroup.TabStop = false;
-            // 
-            // exposurebx
-            // 
-            resources.ApplyResources(this.exposurebx, "exposurebx");
-            this.exposurebx.Name = "exposurebx";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
             // 
             // ctgroup
             // 
@@ -544,10 +527,23 @@ namespace Contact_Tracing_Form_updated
             this.ctNorb.Name = "ctNorb";
             this.ctNorb.UseVisualStyleBackColor = true;
             // 
+            // Datebttn
+            // 
+            resources.ApplyResources(this.Datebttn, "Datebttn");
+            this.Datebttn.Name = "Datebttn";
+            this.Datebttn.Value = new System.DateTime(2022, 6, 24, 0, 0, 0, 0);
+            // 
+            // DateExposure
+            // 
+            resources.ApplyResources(this.DateExposure, "DateExposure");
+            this.DateExposure.Name = "DateExposure";
+            this.DateExposure.Value = new System.DateTime(2022, 6, 24, 0, 0, 0, 0);
+            // 
             // Contacttracing
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.Datebttn);
             this.Controls.Add(this.ctgroup);
             this.Controls.Add(this.exposuregroup);
             this.Controls.Add(this.patientgroup);
@@ -591,7 +587,6 @@ namespace Contact_Tracing_Form_updated
             this.Controls.Add(this.temperaturelbl);
             this.Controls.Add(this.timebx);
             this.Controls.Add(this.timelbl);
-            this.Controls.Add(this.datebx);
             this.Controls.Add(this.datelbl);
             this.Controls.Add(this.formlbl);
             this.MaximizeBox = false;
@@ -619,7 +614,6 @@ namespace Contact_Tracing_Form_updated
             this.patientgroup.ResumeLayout(false);
             this.patientgroup.PerformLayout();
             this.exposuregroup.ResumeLayout(false);
-            this.exposuregroup.PerformLayout();
             this.ctgroup.ResumeLayout(false);
             this.ctgroup.PerformLayout();
             this.ResumeLayout(false);
@@ -634,7 +628,6 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.Label temperaturelbl;
         private System.Windows.Forms.TextBox timebx;
         private System.Windows.Forms.Label timelbl;
-        private System.Windows.Forms.TextBox datebx;
         private System.Windows.Forms.Label datelbl;
         private System.Windows.Forms.TextBox emailbx;
         private System.Windows.Forms.Label emaillbl;
@@ -695,12 +688,12 @@ namespace Contact_Tracing_Form_updated
         private System.Windows.Forms.RadioButton patientYesrb;
         private System.Windows.Forms.RadioButton patientNorb;
         private System.Windows.Forms.GroupBox exposuregroup;
-        private System.Windows.Forms.TextBox exposurebx;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox ctgroup;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton ctYesrb;
         private System.Windows.Forms.RadioButton ctNorb;
+        private System.Windows.Forms.DateTimePicker Datebttn;
+        private System.Windows.Forms.DateTimePicker DateExposure;
     }
 }
 

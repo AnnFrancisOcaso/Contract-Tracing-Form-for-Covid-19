@@ -36,7 +36,7 @@ namespace Contact_Tracing_Form_updated
         private void Submit_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\Contacttracinginformation.txt", true);
-            file.WriteLine("Date: " + datebx.Text);
+            file.WriteLine("Date: " + Datebttn.Text);
             file.WriteLine("Time: " + timebx.Text);
             file.WriteLine("Temperature: " + temperaturebx.Text);
             file.WriteLine("First Name: " + namebx.Text);
@@ -193,7 +193,7 @@ namespace Contact_Tracing_Form_updated
             }
 
             //11 date of exposure
-            file.WriteLine("If yes, state the date of the exposure. " + exposurebx.Text);
+            file.WriteLine("If yes, state the date of the exposure. " + DateExposure.Text);
 
             //Have you gone somewhere outside your residence/city?
             String cityAnswer = "";
