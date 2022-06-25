@@ -193,7 +193,7 @@ namespace Contact_Tracing_Form_updated
             }
 
             //11 date of exposure
-            file.WriteLine("If yes, select the date of the exposure: " + DateExposure.Text);
+            file.WriteLine("If yes, state the date of the exposure: " + dateexposure.Text);
 
             //Have you gone somewhere outside your residence/city?
             String cityAnswer = "";
@@ -210,6 +210,8 @@ namespace Contact_Tracing_Form_updated
             }
 
             file.Close();
+            Application.Restart();
+            Environment.Exit(0);
         }
 
 
@@ -223,15 +225,5 @@ namespace Contact_Tracing_Form_updated
 
         }
 
-        private void finalcheckbttn_Click(object sender, EventArgs e)
-        {
-            StreamReader reader = new StreamReader(@"C:\Users\Phenyang\source\repos\Contact Tracing Form_updated\Contacttracinginformation.txt");
-
-            while (!reader.EndOfStream)
-            {
-                String line = reader.ReadLine();
-                MessageBox.Show(line);
-            }
-        }
     }
 }
